@@ -17,6 +17,7 @@ class Solution {
                 while(!pq.isEmpty() && pq.peek() == prev){
                     temp.add(pq.poll());
                 }
+                
                 if (pq.isEmpty()) return false;
                 int number = pq.poll();
                 if (number != prev+1) return false;
