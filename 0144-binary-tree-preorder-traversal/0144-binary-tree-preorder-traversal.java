@@ -55,7 +55,27 @@ class Solution {
 
         List<Integer> lst = new ArrayList<>();
 
-        recursive(root, lst);
+        // recursive(root, lst);
+
+        Stack<TreeNode> st = new Stack<>();
+
+        TreeNode curr = root;
+
+        while(!st.isEmpty() || curr != null){
+            while(curr != null){
+                lst.add(curr.val);
+                st.push(curr);
+                curr = curr.left;
+            }
+
+            // go to right:
+            curr = st.pop().right;
+
+        }
+
+
+
+
 
         return lst;
 
