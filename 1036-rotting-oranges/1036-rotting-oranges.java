@@ -100,9 +100,7 @@ class Solution {
         return 0;
     }
 
-    // if (!isValid){
-    //     return 0;
-    // }
+
 
 
 
@@ -120,7 +118,7 @@ class Solution {
     
     int currTime = 0;
 
-    int [][] visited = new int [m][n];
+    // int [][] visited = new int [m][n];
 
     int [][] directions = {{-1,0}, {0,-1}, {1,0}, {0,1}};
     while(!queue.isEmpty()){
@@ -138,9 +136,9 @@ class Solution {
               int newrow = row + direction[0];
               int newcol = col + direction[1];
 
-              if (newrow >= 0 && newrow < m && newcol >= 0 && newcol < n && visited[newrow][newcol] == 0 && grid[newrow][newcol] == 1){
+              if (newrow >= 0 && newrow < m && newcol >= 0 && newcol < n && grid[newrow][newcol] == 1){
                 // valid neighbour:
-                visited[newrow][newcol] = 1;
+                // visited[newrow][newcol] = 1;
                 grid[newrow][newcol] = 2;
 
                 queue.offer(new Pair(newrow, newcol));
