@@ -37,7 +37,7 @@ class Solution {
             for (int i = 6; i <= 8; i++){
                 for (int j = 3*k; j < 3*k+3; j++){
                         if (board[i][j] != '.' && hashing.containsKey(board[i][j])){
-                    System.out.println("i = " + i + " j = " + j);
+                    // System.out.println("i = " + i + " j = " + j);
                     return false;
                 }
                 hashing.put(board[i][j], true);
@@ -51,7 +51,7 @@ class Solution {
         HashMap<Character,Boolean> hashing1 = new HashMap<>();
             for (int j = 0; j < m; j++){
                 if (board[i][j] != '.' && hashing1.containsKey(board[i][j])){
-                    System.out.println("i = " + i + " j = " + j);
+                    // System.out.println("i = " + i + " j = " + j);
                     return false;
                 }
                 hashing1.put(board[i][j], true);
@@ -62,7 +62,7 @@ class Solution {
         HashMap<Character,Boolean> hashing2 = new HashMap<>();
             for (int j = 0; j < n; j++){
                 if (board[j][i] != '.' && hashing2.containsKey(board[j][i])){
-                    System.out.println("j = " + j + " i = " + i);
+                    // System.out.println("j = " + j + " i = " + i);
                     return false;
                 }
                 hashing2.put(board[j][i], true);
