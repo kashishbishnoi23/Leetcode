@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/kashishbishnoi23/Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0047-permutations-ii) |
 | [0090-subsets-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0090-subsets-ii) |
+| [0128-longest-consecutive-sequence](https://github.com/kashishbishnoi23/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/kashishbishnoi23/Leetcode/tree/master/0130-surrounded-regions) |
 | [0287-find-the-duplicate-number](https://github.com/kashishbishnoi23/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/kashishbishnoi23/Leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/kashishbishnoi23/Leetcode/tree/master/0036-valid-sudoku) |
 | [0127-word-ladder](https://github.com/kashishbishnoi23/Leetcode/tree/master/0127-word-ladder) |
+| [0128-longest-consecutive-sequence](https://github.com/kashishbishnoi23/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0146-lru-cache](https://github.com/kashishbishnoi23/Leetcode/tree/master/0146-lru-cache) |
 | [0347-top-k-frequent-elements](https://github.com/kashishbishnoi23/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/kashishbishnoi23/Leetcode/tree/master/0355-design-twitter) |
@@ -219,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Union Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/kashishbishnoi23/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/kashishbishnoi23/Leetcode/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/kashishbishnoi23/Leetcode/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/kashishbishnoi23/Leetcode/tree/master/0695-max-area-of-island) |
