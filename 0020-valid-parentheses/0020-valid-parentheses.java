@@ -7,7 +7,7 @@ class Solution {
             if (s.charAt(i) == ')' || s.charAt(i) == '}' || s.charAt(i) == ']'){
                 if (st.isEmpty()) return false;
                 char top = st.peek();
-                System.out.println("i = " + i + " hello" );
+                // System.out.println("i = " + i + " hello" );
 
 
                 if (s.charAt(i) == ')' && top == '(' || s.charAt(i) == '}' && top == '{' || s.charAt(i) == ']' & top == '['){
