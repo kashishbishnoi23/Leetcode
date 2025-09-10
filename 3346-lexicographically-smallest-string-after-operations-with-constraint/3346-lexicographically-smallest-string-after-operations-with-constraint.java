@@ -28,7 +28,7 @@ class Solution {
                 diff = remaining;
             }
             remaining -= diff;
-            System.out.println(remaining);
+            // System.out.println(remaining);
         }
 
         return str.toString();
