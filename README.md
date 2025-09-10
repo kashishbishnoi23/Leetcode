@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/kashishbishnoi23/Leetcode/tree/master/0031-next-permutation) |
 | [0036-valid-sudoku](https://github.com/kashishbishnoi23/Leetcode/tree/master/0036-valid-sudoku) |
+| [0041-first-missing-positive](https://github.com/kashishbishnoi23/Leetcode/tree/master/0041-first-missing-positive) |
 | [0046-permutations](https://github.com/kashishbishnoi23/Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/kashishbishnoi23/Leetcode/tree/master/0049-group-anagrams) |
@@ -37,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/kashishbishnoi23/Leetcode/tree/master/0036-valid-sudoku) |
+| [0041-first-missing-positive](https://github.com/kashishbishnoi23/Leetcode/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/kashishbishnoi23/Leetcode/tree/master/0049-group-anagrams) |
 | [0127-word-ladder](https://github.com/kashishbishnoi23/Leetcode/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/kashishbishnoi23/Leetcode/tree/master/0128-longest-consecutive-sequence) |
