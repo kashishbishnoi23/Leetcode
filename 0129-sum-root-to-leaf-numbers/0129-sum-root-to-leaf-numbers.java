@@ -22,8 +22,8 @@ class Solution {
             
             long num = sb.isEmpty() ? 0 : Long.valueOf(sb.toString());
             sum += num;
-            System.out.println("num = " + num);
-            System.out.println("sum = " + sum);
+            // System.out.println("num = " + num);
+            // System.out.println("sum = " + sum);
             if (!sb.isEmpty())sb.deleteCharAt(sb.length()-1);
             return;
         }
