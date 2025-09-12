@@ -8,9 +8,9 @@ class Solution {
             array[s.charAt(i)-97] ++;
         }
 
-        for (int value : array){
-            System.out.print(value + " ");
-        }
+        // for (int value : array){
+        //     System.out.print(value + " ");
+        // }
 
         for (int j = 0; j < s.length(); j++){
             if (array[s.charAt(j)-97] == 1){
