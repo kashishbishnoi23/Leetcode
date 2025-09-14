@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/kashishbishnoi23/Leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0137-single-number-ii) |
 | [0152-maximum-product-subarray](https://github.com/kashishbishnoi23/Leetcode/tree/master/0152-maximum-product-subarray) |
+| [0260-single-number-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0260-single-number-iii) |
 | [0287-find-the-duplicate-number](https://github.com/kashishbishnoi23/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/kashishbishnoi23/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/kashishbishnoi23/Leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
@@ -294,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/kashishbishnoi23/Leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0137-single-number-ii) |
+| [0260-single-number-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0260-single-number-iii) |
 | [0287-find-the-duplicate-number](https://github.com/kashishbishnoi23/Leetcode/tree/master/0287-find-the-duplicate-number) |
 ## Sliding Window
 |  |
