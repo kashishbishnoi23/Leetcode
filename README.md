@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1845-largest-submatrix-with-rearrangements](https://github.com/kashishbishnoi23/Leetcode/tree/master/1845-largest-submatrix-with-rearrangements) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/kashishbishnoi23/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2606-difference-between-ones-and-zeros-in-row-and-column](https://github.com/kashishbishnoi23/Leetcode/tree/master/2606-difference-between-ones-and-zeros-in-row-and-column) |
 ## Hash Table
 |  |
@@ -194,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/kashishbishnoi23/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/kashishbishnoi23/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/kashishbishnoi23/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -286,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0043-multiply-strings](https://github.com/kashishbishnoi23/Leetcode/tree/master/0043-multiply-strings) |
 | [0380-insert-delete-getrandom-o1](https://github.com/kashishbishnoi23/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [3830-find-closest-person](https://github.com/kashishbishnoi23/Leetcode/tree/master/3830-find-closest-person) |
 ## Backtracking
 |  |
@@ -317,4 +320,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/kashishbishnoi23/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+## Number Theory
+|  |
+| ------- |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 <!---LeetCode Topics End-->
