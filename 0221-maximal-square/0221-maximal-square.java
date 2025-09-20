@@ -12,7 +12,7 @@ class Solution {
             while(!st.isEmpty() && array[st.peek()] > currHeight){
                 int height = array[st.pop()];
                 int width = st.isEmpty() ? i : i-st.peek()-1;
-                System.out.println("height = " + height + " width = " + width);
+                // System.out.println("height = " + height + " width = " + width);
                 int area = height < width ? height*height : width*width;
                 maxArea = Math.max(maxArea, area);
                 
@@ -48,7 +48,7 @@ class Solution {
 
         for (int i = 0; i < n; i++){
             ans = Math.max(ans, LargestRectangle(array[i]));
-            System.out.println("ans = " + ans);
+            // System.out.println("ans = " + ans);
         }
 
         return ans;
