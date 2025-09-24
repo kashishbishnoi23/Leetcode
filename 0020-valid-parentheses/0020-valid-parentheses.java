@@ -1,27 +1,28 @@
 class Solution {
-    public boolean isValid(String s) {
-        Stack<Character> st = new Stack<>();
 
-        int n = s.length();
-        for (int i = 0; i < n; i++){
-            if (s.charAt(i) == ')' || s.charAt(i) == '}' || s.charAt(i) == ']'){
-                if (st.isEmpty()) return false;
-                char top = st.peek();
-                // System.out.println("i = " + i + " hello" );
+    private boolean helper(int indx, String s, Stack<Character>st){
+        if (indx == s.length()){
+            if (st.isEmpty()) return true;
+            return false;
+        }
 
+        char bracket = s.charAt(indx);
 
-                if (s.charAt(i) == ')' && top == '(' || s.charAt(i) == '}' && top == '{' || s.charAt(i) == ']' & top == '['){
-                    st.pop();
-                } else {
-                    return false;
-                }
+        if (bracket == '[' || bracket == '(' || bracket == '{'){
+            st.push(bracket);
+        } else {
+            if (st.isEmpty()) return false;
+            if (bracket == ']' && st.peek() == '[' || bracket == '}' && st.peek() == '{' || bracket == ')' && st.peek() == '('){
+                st.pop();
             } else {
-                st.push(s.charAt(i));
+                return false;
             }
         }
 
-        if (!st.isEmpty()) return false;
-
-        return true;
+        return helper(indx+1, s, st);
+    }
+    public boolean isValid(String s) {
+        Stack<Character> st = new Stack<>();
+        return helper(0, s, st);
     }
 }
