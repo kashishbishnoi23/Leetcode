@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/kashishbishnoi23/Leetcode/tree/master/0355-design-twitter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/kashishbishnoi23/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0387-first-unique-character-in-a-string](https://github.com/kashishbishnoi23/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
+| [0424-longest-repeating-character-replacement](https://github.com/kashishbishnoi23/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0432-all-oone-data-structure](https://github.com/kashishbishnoi23/Leetcode/tree/master/0432-all-oone-data-structure) |
 | [0621-task-scheduler](https://github.com/kashishbishnoi23/Leetcode/tree/master/0621-task-scheduler) |
 | [0740-delete-and-earn](https://github.com/kashishbishnoi23/Leetcode/tree/master/0740-delete-and-earn) |
@@ -307,6 +308,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/kashishbishnoi23/Leetcode/tree/master/0049-group-anagrams) |
 | [0127-word-ladder](https://github.com/kashishbishnoi23/Leetcode/tree/master/0127-word-ladder) |
 | [0387-first-unique-character-in-a-string](https://github.com/kashishbishnoi23/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
+| [0424-longest-repeating-character-replacement](https://github.com/kashishbishnoi23/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [3346-lexicographically-smallest-string-after-operations-with-constraint](https://github.com/kashishbishnoi23/Leetcode/tree/master/3346-lexicographically-smallest-string-after-operations-with-constraint) |
 ## Math
 |  |
@@ -334,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0424-longest-repeating-character-replacement](https://github.com/kashishbishnoi23/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0713-subarray-product-less-than-k](https://github.com/kashishbishnoi23/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 ## Prefix Sum
 |  |
