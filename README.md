@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/kashishbishnoi23/Leetcode/tree/master/0876-hand-of-straights) |
 | [1036-rotting-oranges](https://github.com/kashishbishnoi23/Leetcode/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/kashishbishnoi23/Leetcode/tree/master/1127-last-stone-weight) |
+| [1428-jump-game-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1428-jump-game-iii) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1845-largest-submatrix-with-rearrangements](https://github.com/kashishbishnoi23/Leetcode/tree/master/1845-largest-submatrix-with-rearrangements) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/kashishbishnoi23/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -254,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/kashishbishnoi23/Leetcode/tree/master/0695-max-area-of-island) |
 | [0975-range-sum-of-bst](https://github.com/kashishbishnoi23/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1428-jump-game-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1428-jump-game-iii) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -271,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/kashishbishnoi23/Leetcode/tree/master/0695-max-area-of-island) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/kashishbishnoi23/Leetcode/tree/master/1036-rotting-oranges) |
+| [1428-jump-game-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1428-jump-game-iii) |
 ## Dynamic Programming
 |  |
 | ------- |
