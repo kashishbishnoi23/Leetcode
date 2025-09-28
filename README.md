@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/kashishbishnoi23/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0740-delete-and-earn](https://github.com/kashishbishnoi23/Leetcode/tree/master/0740-delete-and-earn) |
 | [0876-hand-of-straights](https://github.com/kashishbishnoi23/Leetcode/tree/master/0876-hand-of-straights) |
+| [1018-largest-perimeter-triangle](https://github.com/kashishbishnoi23/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1036-rotting-oranges](https://github.com/kashishbishnoi23/Leetcode/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/kashishbishnoi23/Leetcode/tree/master/1127-last-stone-weight) |
 | [1428-jump-game-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1428-jump-game-iii) |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/kashishbishnoi23/Leetcode/tree/master/0611-valid-triangle-number) |
 | [0621-task-scheduler](https://github.com/kashishbishnoi23/Leetcode/tree/master/0621-task-scheduler) |
 | [0876-hand-of-straights](https://github.com/kashishbishnoi23/Leetcode/tree/master/0876-hand-of-straights) |
+| [1018-largest-perimeter-triangle](https://github.com/kashishbishnoi23/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1845-largest-submatrix-with-rearrangements](https://github.com/kashishbishnoi23/Leetcode/tree/master/1845-largest-submatrix-with-rearrangements) |
@@ -222,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0611-valid-triangle-number](https://github.com/kashishbishnoi23/Leetcode/tree/master/0611-valid-triangle-number) |
 | [0621-task-scheduler](https://github.com/kashishbishnoi23/Leetcode/tree/master/0621-task-scheduler) |
 | [0876-hand-of-straights](https://github.com/kashishbishnoi23/Leetcode/tree/master/0876-hand-of-straights) |
+| [1018-largest-perimeter-triangle](https://github.com/kashishbishnoi23/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1845-largest-submatrix-with-rearrangements](https://github.com/kashishbishnoi23/Leetcode/tree/master/1845-largest-submatrix-with-rearrangements) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [3346-lexicographically-smallest-string-after-operations-with-constraint](https://github.com/kashishbishnoi23/Leetcode/tree/master/3346-lexicographically-smallest-string-after-operations-with-constraint) |
@@ -339,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/kashishbishnoi23/Leetcode/tree/master/0002-add-two-numbers) |
 | [0043-multiply-strings](https://github.com/kashishbishnoi23/Leetcode/tree/master/0043-multiply-strings) |
 | [0380-insert-delete-getrandom-o1](https://github.com/kashishbishnoi23/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [1018-largest-perimeter-triangle](https://github.com/kashishbishnoi23/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/kashishbishnoi23/Leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [3830-find-closest-person](https://github.com/kashishbishnoi23/Leetcode/tree/master/3830-find-closest-person) |
