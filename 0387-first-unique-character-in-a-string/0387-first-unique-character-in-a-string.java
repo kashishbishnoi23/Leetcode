@@ -26,7 +26,7 @@ class Solution {
         }
 
         for (char key : hashing.keySet()){
-            System.out.println(key);
+            // System.out.println(key);
             if (hashing.get(key).get(1) == 1) return hashing.get(key).get(0); 
         }
 
