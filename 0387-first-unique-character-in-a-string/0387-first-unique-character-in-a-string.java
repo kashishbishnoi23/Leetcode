@@ -12,24 +12,37 @@ class Solution {
         //     if (count == 1) return i;
         // }
 
-        Map<Character, ArrayList<Integer>> hashing = new LinkedHashMap<>();
+        // Map<Character, ArrayList<Integer>> hashing = new LinkedHashMap<>();
+        // for (int i = 0; i < n; i++){
+        //     char key = s.charAt(i);
+        //     if (!hashing.containsKey(s.charAt(i))){
+        //         hashing.put(key, new ArrayList<>());               
+        //         hashing.get(key).add(i);
+        //         hashing.get(key).add(1);
+        //         continue;
+        //     }
+        //     int count = hashing.get(key).get(1);
+        //     hashing.get(key).add(1, count+1);
+        // }
+
+        // for (char key : hashing.keySet()){
+        //     // System.out.println(key);
+        //     if (hashing.get(key).get(1) == 1) return hashing.get(key).get(0); 
+        // }
+
+        int [] array = new int [26];
+
         for (int i = 0; i < n; i++){
-            char key = s.charAt(i);
-            if (!hashing.containsKey(s.charAt(i))){
-                hashing.put(key, new ArrayList<>());               
-                hashing.get(key).add(i);
-                hashing.get(key).add(1);
-                continue;
-            }
-            int count = hashing.get(key).get(1);
-            hashing.get(key).add(1, count+1);
+            int ascii = s.charAt(i);
+            int diff = ascii - 97;
+            array[diff]++;
         }
 
-        for (char key : hashing.keySet()){
-            // System.out.println(key);
-            if (hashing.get(key).get(1) == 1) return hashing.get(key).get(0); 
+        for (int i = 0; i < n; i++){
+            int ascii = s.charAt(i);
+            int diff = ascii-97;
+            if (array[diff] == 1) return i;
         }
-
         
 
         return -1;
