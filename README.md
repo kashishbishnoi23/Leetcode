@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/kashishbishnoi23/Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/kashishbishnoi23/Leetcode/tree/master/0049-group-anagrams) |
+| [0051-n-queens](https://github.com/kashishbishnoi23/Leetcode/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/kashishbishnoi23/Leetcode/tree/master/0055-jump-game) |
 | [0074-search-a-2d-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -372,6 +373,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/kashishbishnoi23/Leetcode/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/kashishbishnoi23/Leetcode/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0047-permutations-ii) |
+| [0051-n-queens](https://github.com/kashishbishnoi23/Leetcode/tree/master/0051-n-queens) |
 | [0090-subsets-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0090-subsets-ii) |
 ## Bit Manipulation
 |  |
