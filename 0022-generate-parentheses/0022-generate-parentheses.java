@@ -5,8 +5,6 @@ class Solution {
      
         if (open > n || close > n) return;
             if (open == n && close == n){
-                   System.out.println("open = " + open + " close = " + close);
-        System.out.println("sb = " + sb);
                 ans.add(sb.toString());
                 return;
             }
@@ -14,6 +12,7 @@ class Solution {
             // add open bracket:
             sb.append('(');
             helper(n, ans, sb, open+1, close);
+            
 
 
             // add close bracket:
