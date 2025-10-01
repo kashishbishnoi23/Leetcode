@@ -1,21 +1,20 @@
 class Solution {
     public int singleNumber(int[] nums) {
-        int size = nums.length;
+        int n = nums.length;
         int ans = 0;
+        
         for (int i = 0; i < 32; i++){
-            int count = 0;
-            for (int j = 0; j < size; j++){
-                if((nums[j] & (1 << i)) != 0){
-                    count ++;
-                }  
+            int sum = 0;
+            for (int j = 0; j < n; j++){
+                 if ((nums[j] & (1 << i)) != 0){
+                     sum ++;
+                 }
             }
-            if (count % 3 == 1){
-                ans = ans | (1 << i);
+            if (sum % 3 == 1){
+                ans = (ans | (1 << i));
             }
         }
 
         return ans;
-
-
     }
 }
