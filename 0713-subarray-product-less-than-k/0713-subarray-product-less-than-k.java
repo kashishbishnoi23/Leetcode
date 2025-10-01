@@ -15,7 +15,7 @@ class Solution {
                 left++;
             }
 
-            count += Math.max(right-left+1, 0);
+            count += right-left+1;
 
         }
 
