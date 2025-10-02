@@ -9,24 +9,14 @@ class Solution {
 
 
         for (int i = 0; i < n; i++){
-            // ans.get(i) = new ArrayList<>();
             ans.add(i, new ArrayList<>());
-            char ch = searchWord.charAt(i);
             int j = 0;
-            boolean found = false;
             int start = -1;
             String str = searchWord.substring(0, i+1);
             while(j < m){
-                if (i == 0){
-                     if (products[j].charAt(0) == ch){
-                        start = j;
-                        break;        
-                     }
-                } else {
-                    if (products[j].startsWith(str)){
+                if (products[j].startsWith(str)){
                         start = j;
                         break;
-                    }
                 }
                 j++;
             }
