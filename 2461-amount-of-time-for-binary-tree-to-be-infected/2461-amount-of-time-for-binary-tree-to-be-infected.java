@@ -38,7 +38,7 @@ class Solution {
 
         // level order traversal:
         Queue<TreeNode> q  = new LinkedList<>();
-        System.out.println(startNode.val);
+        // System.out.println(startNode.val);
         q.offer(startNode);
         int t = 0;
 
