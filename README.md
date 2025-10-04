@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/kashishbishnoi23/Leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0380-insert-delete-getrandom-o1](https://github.com/kashishbishnoi23/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0407-trapping-rain-water-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0463-island-perimeter](https://github.com/kashishbishnoi23/Leetcode/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/0542-01-matrix) |
@@ -121,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0355-design-twitter](https://github.com/kashishbishnoi23/Leetcode/tree/master/0355-design-twitter) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/kashishbishnoi23/Leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0407-trapping-rain-water-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0621-task-scheduler](https://github.com/kashishbishnoi23/Leetcode/tree/master/0621-task-scheduler) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/kashishbishnoi23/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1127-last-stone-weight](https://github.com/kashishbishnoi23/Leetcode/tree/master/1127-last-stone-weight) |
@@ -307,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/kashishbishnoi23/Leetcode/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/kashishbishnoi23/Leetcode/tree/master/0130-surrounded-regions) |
 | [0199-binary-tree-right-side-view](https://github.com/kashishbishnoi23/Leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0407-trapping-rain-water-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0463-island-perimeter](https://github.com/kashishbishnoi23/Leetcode/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/kashishbishnoi23/Leetcode/tree/master/0547-number-of-provinces) |
@@ -358,6 +361,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0221-maximal-square](https://github.com/kashishbishnoi23/Leetcode/tree/master/0221-maximal-square) |
 | [0240-search-a-2d-matrix-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0407-trapping-rain-water-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0463-island-perimeter](https://github.com/kashishbishnoi23/Leetcode/tree/master/0463-island-perimeter) |
 | [0542-01-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/kashishbishnoi23/Leetcode/tree/master/0695-max-area-of-island) |
