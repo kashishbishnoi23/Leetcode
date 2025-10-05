@@ -26,16 +26,16 @@ class Solution {
     );
 
     for (String key : hashing.keySet()){
-        System.out.println("key = " + key);
+        // System.out.println("key = " + key);
         if (pq.size() < k){
             pq.offer(new Node(key, hashing.get(key)));
         } else {
             // System.out.println("hello");
             int currCount = hashing.get(key);
             Node node = pq.peek();
-            System.out.println(node.str.compareTo(key));
+            // System.out.println(node.str.compareTo(key));
             if (node.count < currCount || node.count == currCount && node.str.compareTo(key) > 0){
-                System.out.println(key);
+                // System.out.println(key);
                 pq.poll();
                 pq.offer(new Node(key, currCount));
             }
