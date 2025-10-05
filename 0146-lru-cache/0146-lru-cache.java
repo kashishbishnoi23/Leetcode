@@ -1,19 +1,4 @@
 class LRUCache {
-    
-    // private static class Pair{
-    //     int key;
-    //     int value;
-    //     int time;
-
-    //     public Pair(int key, int value, int time){
-    //         this.key = key;
-    //         this.value = value;
-    //         this.time = time;
-    //     }
-    // };
-
-    // PriorityQueue <Pair>pq = new PriorityQueue<>((a, b) -> Integer.compare(a.time, b.time));
-    // int currTime = 0;
 
     class Node {
         int key;
@@ -28,107 +13,102 @@ class LRUCache {
             this.prev = null;
         }
     }
-    int capacity = 0;
 
+    int capacity;
+    int n;
     Node head;
     Node tail;
 
-   
+    HashMap<Integer, Node> hashing = new HashMap<>();
 
-    Map<Integer, Node> hashing = new HashMap<>();
     public LRUCache(int capacity) {
         this.capacity = capacity;
-        // create a head and tail , attach the head with tail:
-        this.head = new Node(-1, -1);
-        this.tail = new Node(-1, -1);
-        head.next = tail;
-        tail.prev = head;
+        n = 0;
+        head = null;
+        tail = null;
     }
     
     public int get(int key) {
-        // if (!hashing.containsKey(key)) return -1;
-        // currTime ++;
-        // Pair p = hashing.get(key);
-        // pq.remove(p);
-        // p.time = currTime;
-        // pq.offer(p);
-        // return p.value;
+        // System.out.println("get " + key);
+        // for (int k : hashing.keySet()){
+        //     System.out.println(k + " " + hashing.get(k).value);
+        // }
+        if (hashing.containsKey(key)){
+            Node node = hashing.get(key);
+            int value = node.value;
+            changePriority(node);
+            return value;
+        }
+        return -1;
+    }
 
-        // if it exists in mapping -> return the value and move the node at the start:
-        if (!hashing.containsKey(key)){
-            return -1;
+    private void changePriority(Node node){
+        // put the node at tail:
+        if (node == tail) return;
+
+        Node prev = node.prev;
+        Node next = node.next;
+
+        if (node == head){
+            head = head.next;
+            head.prev = null;
+        } else{
+            if (next != null){
+                next.prev = prev;
+            }
+
+            if (prev != null){
+                prev.next = next;
+            }
         }
 
-        Node node = hashing.get(key);
-        int val = node.value;
-        node.prev.next = node.next;
-        node.next.prev = node.prev;
-
-        Node headNext = head.next;
-        head.next = node;
-        node.prev = head;
-        node.next = headNext;
-        headNext.prev = node;
-
-        return val;
+        node.next = null;
+        tail.next = node;
+        node.prev = tail;
+        tail = tail.next;
 
 
     }
+
     
     public void put(int key, int value) {
-        // if (hashing.size() == capacity && !hashing.containsKey(key)){
-        //     // remove the one which was used least recently:
-        //     Pair p = pq.poll();
-        //     hashing.remove(p.key);
+        // System.out.println("put " + key + " " + value);
+        // for (int k : hashing.keySet()){
+        //     System.out.println(k + " " + hashing.get(k).value);
         // }
-        // currTime++;
-        // if (hashing.containsKey(key)){
-        //     Pair p = hashing.get(key);
-        //     p.value = value;
-        //     pq.remove(p);
-        //     p.time = currTime;
-        //     pq.offer(p);
-        //     return;
-        // }
-        // Pair p = new Pair(key, value,currTime);
 
-        // hashing.put(key, p);
-        // pq.offer(p);
-     
+        if (hashing.containsKey(key)){
+            Node node = hashing.get(key);
+            node.value = value;
+            changePriority(node);
+        } else {
+            if (n >= capacity){
+                // remove head:
+                hashing.remove(head.key);
+                head = head.next;
+                if (head != null) head.prev = null;
+                n--;  
+            }
 
-    if (capacity == hashing.size() && !hashing.containsKey(key)){
-        // remove the LRU node
-        Node toremove = this.tail.prev;
-        toremove.prev.next = tail;
-        tail.prev = toremove.prev;
-        hashing.remove(toremove.key);
-    }
+            Node node = new Node(key, value);
+            hashing.put(key, node);
+            // add new node at the end:
+            if (n == 0){
+                head = node;
+                tail = node;
+                n++;
+                return;
+            }
+            n++;
+            // node.next = null;
+            tail.next = node;
+            node.prev = tail;
+            tail = tail.next;
 
-    // jo bhi value put korge => vo recent value hogi -> recent values head k aage ayengi:
-    Node node;
-
-    // if map already contains this key -> simply update its value and put the node at front:
-    if (hashing.containsKey(key)){
-        node = hashing.get(key);
-        node.value = value;
-    // ab node ko utha ke front me daal do:
-    Node prev = node.prev;
-    Node next = node.next;
-
-    prev.next = next;
-    next.prev = prev;
-    } else {
-        node = new Node(key, value);
-        hashing.put(key, node);
-    }
-
- 
-    Node headNext = head.next;
-    head.next = node;
-    node.prev = head;
-    node.next = headNext;
-    headNext.prev = node;
-
+         
+        
+        }
+        
     }
 }
 
