@@ -32,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0221-maximal-square](https://github.com/kashishbishnoi23/Leetcode/tree/master/0221-maximal-square) |
 | [0240-search-a-2d-matrix-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0260-single-number-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0260-single-number-iii) |
+| [0283-move-zeroes](https://github.com/kashishbishnoi23/Leetcode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/kashishbishnoi23/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0347-top-k-frequent-elements](https://github.com/kashishbishnoi23/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/kashishbishnoi23/Leetcode/tree/master/0373-find-k-pairs-with-smallest-sums) |
@@ -254,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/kashishbishnoi23/Leetcode/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0088-merge-sorted-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0088-merge-sorted-array) |
+| [0283-move-zeroes](https://github.com/kashishbishnoi23/Leetcode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/kashishbishnoi23/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/kashishbishnoi23/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/kashishbishnoi23/Leetcode/tree/master/0528-swapping-nodes-in-a-linked-list) |
