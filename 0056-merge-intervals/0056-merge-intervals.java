@@ -19,14 +19,10 @@ class Solution {
 
         while(!pq.isEmpty()){
             int [] current = pq.poll();
-            System.out.println(current[0] + " " + current[1]);
-
             if (pq.isEmpty()){
                 ans.add(current);
                 break;
             }
-
-            // jab tak overlap ho kraate jao:
                 int [] top = pq.peek();
                 int [] over = overlap(current, top);
 
