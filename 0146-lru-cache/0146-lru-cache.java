@@ -29,10 +29,6 @@ class LRUCache {
     }
     
     public int get(int key) {
-        // System.out.println("get " + key);
-        // for (int k : hashing.keySet()){
-        //     System.out.println(k + " " + hashing.get(k).value);
-        // }
         if (hashing.containsKey(key)){
             Node node = hashing.get(key);
             int value = node.value;
@@ -72,10 +68,6 @@ class LRUCache {
 
     
     public void put(int key, int value) {
-        // System.out.println("put " + key + " " + value);
-        // for (int k : hashing.keySet()){
-        //     System.out.println(k + " " + hashing.get(k).value);
-        // }
 
         if (hashing.containsKey(key)){
             Node node = hashing.get(key);
