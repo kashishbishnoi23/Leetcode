@@ -1,57 +1,51 @@
 class Solution {
 
-    private int LargestRectangle(int[] array){
-        int n = array.length;
-        int maxArea = 0;
+    private int LargestRectangle(int[] heights){
+       int max = 0;
+       int n = heights.length;
+       Stack<Integer> st = new Stack<>();
 
-        Stack<Integer> st = new Stack<>();
+       for (int i = 0; i <= n; i++){
+          int currHeight = (i == n) ? 0 : heights[i];
 
-        for (int i = 0; i <= n; i++){
-            int currHeight = (i == n ? 0 : array[i]);
+          while(!st.isEmpty() && currHeight < heights[st.peek()]){
+              int height = heights[st.pop()];
+              int width = st.isEmpty() ? i : i-st.peek()-1;
 
-            while(!st.isEmpty() && array[st.peek()] > currHeight){
-                int height = array[st.pop()];
-                int width = st.isEmpty() ? i : i-st.peek()-1;
-                // System.out.println("height = " + height + " width = " + width);
-                int area = height < width ? height*height : width*width;
-                maxArea = Math.max(maxArea, area);
-                
-            }
-            st.push(i);
-        }
+              int area = (height < width) ? height*height : width*width;
+              max = Math.max(area, max);
+          }
 
-        return maxArea;
+          st.push(i);
+       }
 
-
+       return max;
     }
     public int maximalSquare(char[][] matrix) {
         int n = matrix.length;
         int m = matrix[0].length;
 
-        int[][] array = new int [n][m];
+        int [][] array = new int [n][m];
 
-        for (int j = 0; j < m; j++){
-            for (int i = 0; i < n; i++){
-                if (matrix[i][j] == '0'){
-                    array[i][j] = 0;
-                    continue;
+        for (int i = 0; i < n; i++){
+            for (int j = 0; j < m; j++){
+                if (i == 0){
+                    array[i][j] = matrix[i][j] - '0';
                 } else {
-                    if (i == 0){
-                        array[i][j] = 1;
-                    } else {
-                        array[i][j] = 1 + array[i-1][j];
+                    if (matrix[i][j] == '1'){
+                        array[i][j] = array[i-1][j] + 1;
                     }
                 }
             }
         }
-        int ans = 0;
+
+        int maxSquare = 0;
 
         for (int i = 0; i < n; i++){
-            ans = Math.max(ans, LargestRectangle(array[i]));
-            // System.out.println("ans = " + ans);
+            maxSquare = Math.max(maxSquare, LargestRectangle(array[i]));
         }
 
-        return ans;
+        return maxSquare;
 
 
     }
