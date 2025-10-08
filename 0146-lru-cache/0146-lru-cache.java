@@ -1,6 +1,6 @@
 class LRUCache {
 
-    class Node {
+    static class Node{
         int key;
         int value;
         Node next;
@@ -14,94 +14,83 @@ class LRUCache {
         }
     }
 
-    int capacity;
-    int n;
-    Node head;
-    Node tail;
-
     HashMap<Integer, Node> hashing = new HashMap<>();
+    private int capacity;
+    private int size;
+    private Node head;
+    private Node tail;
 
     public LRUCache(int capacity) {
         this.capacity = capacity;
-        n = 0;
-        head = null;
-        tail = null;
+        this.size = 0;
+        this.head = null;
+        this.tail = null;
     }
     
     public int get(int key) {
-        if (hashing.containsKey(key)){
-            Node node = hashing.get(key);
-            int value = node.value;
-            changePriority(node);
-            return value;
-        }
-        return -1;
+        if (!hashing.containsKey(key)) return -1;
+
+        changePriority(key);
+
+        return hashing.get(key).value;
     }
 
-    private void changePriority(Node node){
-        // put the node at tail:
-        if (node == tail) return;
+    private void changePriority(int key){
+        Node node = hashing.get(key);
+        if (head == tail || tail.key == key) return;
+
+        if (head.key == key) head = head.next;
 
         Node prev = node.prev;
         Node next = node.next;
 
-        if (node == head){
-            head = head.next;
-            head.prev = null;
-        } else{
-            if (next != null){
-                next.prev = prev;
-            }
-
-            if (prev != null){
-                prev.next = next;
-            }
+        if (prev != null){
+            prev.next = next;
         }
 
-        node.next = null;
+        if (next != null){
+            next.prev = prev;
+        }
+
         tail.next = node;
         node.prev = tail;
-        tail = tail.next;
-
-
+        tail = node;
     }
-
     
     public void put(int key, int value) {
-
+        // if hashing already contains the key, simply update its value and change its priority:
         if (hashing.containsKey(key)){
-            Node node = hashing.get(key);
-            node.value = value;
-            changePriority(node);
+            hashing.get(key).value = value;
+            changePriority(key);
         } else {
-            if (n >= capacity){
-                // remove head:
+            // create a new entry , add it to the end of the LL, and add to the hashmap:
+            Node newnode = new Node(key, value);
+            hashing.put(key, newnode);
+            if (size >= capacity){
+                // remove the first node:
+                if (head == tail) tail = null;
+                
                 hashing.remove(head.key);
                 head = head.next;
-                if (head != null) head.prev = null;
-                n--;  
+                if (head != null){
+                    head.prev = null;
+                }
+                size--;
             }
 
-            Node node = new Node(key, value);
-            hashing.put(key, node);
-            // add new node at the end:
-            if (n == 0){
-                head = node;
-                tail = node;
-                n++;
+            if (size == 0){
+                head = newnode;
+                tail = newnode;
+                size++;
                 return;
             }
-            n++;
-            // node.next = null;
-            tail.next = node;
-            node.prev = tail;
-            tail = tail.next;
-
-         
-        
+            
+            size++;
+            if (tail != null) tail.next = newnode;
+            newnode.prev = tail;
+            tail = newnode;
         }
-        
-    }
+    } 
 }
 
 /**
