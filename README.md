@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/kashishbishnoi23/Leetcode/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/kashishbishnoi23/Leetcode/tree/master/0051-n-queens) |
 | [0055-jump-game](https://github.com/kashishbishnoi23/Leetcode/tree/master/0055-jump-game) |
+| [0056-merge-intervals](https://github.com/kashishbishnoi23/Leetcode/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0088-merge-sorted-array) |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0047-permutations-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0047-permutations-ii) |
 | [0049-group-anagrams](https://github.com/kashishbishnoi23/Leetcode/tree/master/0049-group-anagrams) |
+| [0056-merge-intervals](https://github.com/kashishbishnoi23/Leetcode/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0215-kth-largest-element-in-an-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/kashishbishnoi23/Leetcode/tree/master/0242-valid-anagram) |
