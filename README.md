@@ -363,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/kashishbishnoi23/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0740-delete-and-earn](https://github.com/kashishbishnoi23/Leetcode/tree/master/0740-delete-and-earn) |
 | [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/kashishbishnoi23/Leetcode/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
+| [2404-number-of-distinct-roll-sequences](https://github.com/kashishbishnoi23/Leetcode/tree/master/2404-number-of-distinct-roll-sequences) |
 ## Doubly-Linked List
 |  |
 | ------- |
@@ -511,4 +512,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0692-top-k-frequent-words](https://github.com/kashishbishnoi23/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [1397-search-suggestions-system](https://github.com/kashishbishnoi23/Leetcode/tree/master/1397-search-suggestions-system) |
+## Memoization
+|  |
+| ------- |
+| [2404-number-of-distinct-roll-sequences](https://github.com/kashishbishnoi23/Leetcode/tree/master/2404-number-of-distinct-roll-sequences) |
 <!---LeetCode Topics End-->
