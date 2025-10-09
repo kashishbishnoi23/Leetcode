@@ -1,63 +1,47 @@
 class Solution {
 
-    // private void dfs(int node, int[] visited, int[][] isConnected){
+    private void dfs(int node, boolean [] visited, ArrayList<ArrayList<Integer>> adjList){
         
-    //     // go to its neighbours:
-
-    //     for (int i = 0; i < isConnected.length; i++){
-    //         if (visited[i] == 0 && isConnected[node][i] == 1){
-    //             visited[i] = 1;
-    //             dfs(i, visited, isConnected);
-    //         }
-    //     }
-
-
-
-    // }
-
-    private void dfs(int node, int[] visited, int[][] isConnected){
-
-        // mark the current node as visited:
-        int n = isConnected.length;
-
-        for (int j = 0; j < n; j++){
-            if (isConnected[node][j] == 1 && visited[j] == 0){
-                visited[j] = 1;
-                dfs(j, visited, isConnected);
+        // go to the nodes and visit them:
+        for (int neighbour : adjList.get(node)){
+            if (visited[neighbour] == false){
+                visited[neighbour] = true;
+                dfs(neighbour, visited, adjList);
             }
         }
     }
     public int findCircleNum(int[][] isConnected) {
+        int n = isConnected.length;
         
-        // int n = isConnected.length;
+        ArrayList<ArrayList<Integer>> adjList = new ArrayList<>();
 
-        // int[] visited = new int [n];
-        // int count = 0;
-        // for (int i = 0; i < n; i++){
-        //     if (visited[i] == 0){
-        //         visited[i] = 1;
-        //         dfs(i, visited, isConnected);
-        //         count ++;
-        //     }
-            
-        // }
+        for(int i = 0; i < n; i++){
+            adjList.add(new ArrayList<>());
+        }
 
-        // return count;
+        boolean [] visited = new boolean[n+1];
 
-        int n = isConnected.length; // total number of nodes
-        int [] visited = new int [n];
-        int count = 0;
+        // creating an adjacency list:
         for (int i = 0; i < n; i++){
-            if (visited[i] == 0){
-                count ++;
-                visited[i] = 1;
-                dfs(i, visited, isConnected);
+            for (int j = 0; j < n; j++){
+                if (isConnected[i][j] == 1){
+                    adjList.get(i).add(j);
+                    adjList.get(j).add(i);
+                }
             }
         }
 
-        return count;
+        int comp = 0;
 
+        for (int i = 0; i < n; i++){
+            if (visited[i] == false){
+                comp++;
+                visited[i] = true;
+                dfs(i, visited, adjList);
+            }
+        }
 
+        return comp;
 
 
 
