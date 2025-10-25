@@ -36,7 +36,7 @@ class MyStack {
         // queue.offer(val);
 
         // return val;
-        return queue.getLast();
+        return queue.peekLast();
     }
     
     public boolean empty() {
