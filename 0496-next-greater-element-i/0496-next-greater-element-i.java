@@ -24,9 +24,6 @@ class Solution {
         
         }
 
-        for (int key : hashing.keySet()){
-            System.out.println(key + " " + hashing.get(key));
-        }
 
             int[] ans = new int [nums1.length];
 
