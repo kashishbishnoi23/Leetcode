@@ -4,7 +4,6 @@ class Solution {
 
         String number = String.valueOf(n);
         int index = -1;
-        System.out.println(number);
 
         for (int j = number.length()-2 ; j >= 0; j--){
             // System.out.println(j);
@@ -13,8 +12,6 @@ class Solution {
                 break;
             }
         }
-
-        System.out.println("index = " + index);
 
         if (index == -1) return -1;
         StringBuilder sb = new StringBuilder(number);
