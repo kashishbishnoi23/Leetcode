@@ -1,34 +1,51 @@
 class Solution {
 
-        private int helper(String s, int index, int n) {
-        if (index == n) return index; // reached end successfully
+    private int recursive(String s, int index, int n ){
 
-        char c = s.charAt(index);
+        if (index == n) return index;
 
-        // If it's an opening bracket, expect the matching closing one later
-        if (c == '(' || c == '{' || c == '[') {
-            char closing = (c == '(') ? ')' : (c == '{' ? '}' : ']');
-            int next = helper(s, index + 1, n); // process inside this pair
+        // if open bracket -> check kro ki aage close bracket ha ya nahi:
+        char ch = s.charAt(index);
 
-            if (next == -1 || next == n || s.charAt(next) != closing) return -1;
+        if (ch == '(' || ch == '[' || ch == '{'){
+            char closing = (ch == '(') ? ')' : (ch == '[' ? ']' : '}');
+            int closeIndex = recursive(s, index+1, n);
 
-            // continue after the closing
-            return helper(s, next + 1, n);
+            if (closeIndex == -1 || closeIndex == n || s.charAt(closeIndex) != closing) return -1;
+
+            return recursive(s, closeIndex+1, n);
+            
+
+
         }
-
-        // If it's a closing bracket without matching open → return index (stop recursion)
+            
         return index;
-    }
+        
 
+       
+
+    }
     public boolean isValid(String s) {
-    // String replaced = s.replace("()", "")
-    //                    .replace("{}", "")
-    //                    .replace("[]", "");
-    // if (replaced.equals(s)) return s.isEmpty(); // no change
+        // Stack<Character> st = new Stack<>();
 
-    // return isValid(replaced);
+        // for(int i = 0; i < s.length(); i++){
+        //     // if it is an open bracket, push it :
+        //     char ch = s.charAt(i);
+        //     if (ch == '(' || ch == '[' || ch == '{'){
+        //         st.push(ch);
+        //     } else {
+        //         if (st.isEmpty()) return false;
 
-     return helper(s, 0, s.length()) == s.length();
+        //         if (ch == ')' && st.peek() == '(' ||  ch == ']' && st.peek() == '[' || ch == '}' && st.peek() == '{'){
+        //             st.pop();
+        //         } else {
+        //             return false;
+        //         }
+        //     }
+        // }
+
+        // return st.isEmpty();
+
+        return recursive(s, 0, s.length()) == s.length() ? true :false;
     }
-
 }
