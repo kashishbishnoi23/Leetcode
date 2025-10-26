@@ -14,33 +14,34 @@ class LRUCache {
         }
     }
 
-    HashMap<Integer, Node> hashing = new HashMap<>();
-    private int capacity;
-    private int size;
-    private Node head;
-    private Node tail;
+    // keep a hashmap to have a track of if this key is present or not:
+    HashMap<Integer, Node> hashing;
+    Node head;
+    Node last;
+
+    int capacity;
+    int N;
 
     public LRUCache(int capacity) {
         this.capacity = capacity;
-        this.size = 0;
+        this.N = 0;
+        this.hashing = new HashMap<>();
         this.head = null;
-        this.tail = null;
-    }
-    
-    public int get(int key) {
-        if (!hashing.containsKey(key)) return -1;
-
-        changePriority(key);
-
-        return hashing.get(key).value;
+        this.last = null;
     }
 
     private void changePriority(int key){
+        // isko uthaake last pe lagado:
         Node node = hashing.get(key);
-        if (head == tail || tail.key == key) return;
 
-        if (head.key == key) head = head.next;
-
+        if (last == node) return;
+        if (node == head){
+            head = head.next;
+            if (head != null){
+                head.prev = null;
+            }
+        }
+   
         Node prev = node.prev;
         Node next = node.next;
 
@@ -52,47 +53,63 @@ class LRUCache {
             next.prev = prev;
         }
 
-        tail.next = node;
-        node.prev = tail;
-        tail = node;
+        last.next = node;
+        node.prev = last;
+        last = node;
+
+    }
+    
+    public int get(int key) {
+        if (hashing.containsKey(key)){
+            changePriority(key);
+            return hashing.get(key).value;
+        }
+        return -1;
+
+        // agar present nahi hai to create a new node and insert it at the end:     
     }
     
     public void put(int key, int value) {
-        // if hashing already contains the key, simply update its value and change its priority:
+
         if (hashing.containsKey(key)){
             hashing.get(key).value = value;
             changePriority(key);
-        } else {
-            // create a new entry , add it to the end of the LL, and add to the hashmap:
-            Node newnode = new Node(key, value);
-            hashing.put(key, newnode);
-            if (size >= capacity){
-                // remove the first node:
-                if (head == tail) tail = null;
-                
-                hashing.remove(head.key);
-                head = head.next;
-                if (head != null){
-                    head.prev = null;
-                }
-                size--;
-            }
-
-            if (size == 0){
-                head = newnode;
-                tail = newnode;
-                size++;
-                return;
-            }
-            
-            size++;
-            if (tail != null) tail.next = newnode;
-            newnode.prev = tail;
-            tail = newnode;
+            return;
         }
-    } 
-}
 
+        if (this.N == this.capacity){
+            // remove the first element:
+            hashing.remove(head.key);
+            head = head.next;
+            if (head != null){
+                head.prev = null;
+            }
+
+            this.N--;
+        }
+
+        // create a new node:
+        Node newnode = new Node(key, value);
+        hashing.put(key, newnode);
+        this.N++;
+
+        if (head == null){
+            head = newnode;
+            last = newnode;
+            return;
+        }
+
+
+        
+        last.next = newnode;
+        newnode.prev = last;
+        last = newnode;
+
+        
+
+        
+    }
+}
 
 /**
  * Your LRUCache object will be instantiated and called as such:
