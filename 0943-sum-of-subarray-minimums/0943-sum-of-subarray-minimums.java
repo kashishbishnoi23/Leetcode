@@ -58,7 +58,7 @@ class Solution {
             long right = nse[i] - i;
 
             long contri = (left*right) % MOD;
-            System.out.println(contri);
+            // System.out.println(contri);
             ans = (ans + (contri*arr[i]) % MOD) % MOD;
 
         }
