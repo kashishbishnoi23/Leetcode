@@ -47,7 +47,7 @@ class Solution {
                     // pani store tab hoga agar boundary current cell se badi hogi
                     if (height > curr){
                         water += height - curr;
-                        System.out.println("curr = " + curr + " water = " + water);
+                        // System.out.println("curr = " + curr + " water = " + water);
                     }
 
                     pq.offer(new int[] {Math.max(height, curr), newrow, newcol});
