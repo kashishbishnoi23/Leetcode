@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2606-difference-between-ones-and-zeros-in-row-and-column](https://github.com/kashishbishnoi23/Leetcode/tree/master/2606-difference-between-ones-and-zeros-in-row-and-column) |
+| [3193-maximum-strong-pair-xor-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/kashishbishnoi23/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/kashishbishnoi23/Leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2169-simple-bank-system](https://github.com/kashishbishnoi23/Leetcode/tree/master/2169-simple-bank-system) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/kashishbishnoi23/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
+| [3193-maximum-strong-pair-xor-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/kashishbishnoi23/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## Divide and Conquer
 |  |
@@ -548,6 +550,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0260-single-number-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0260-single-number-iii) |
 | [0287-find-the-duplicate-number](https://github.com/kashishbishnoi23/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/kashishbishnoi23/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [3193-maximum-strong-pair-xor-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/kashishbishnoi23/Leetcode/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Sliding Window
 |  |
@@ -556,6 +559,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/kashishbishnoi23/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/kashishbishnoi23/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0713-subarray-product-less-than-k](https://github.com/kashishbishnoi23/Leetcode/tree/master/0713-subarray-product-less-than-k) |
+| [3193-maximum-strong-pair-xor-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -614,6 +618,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0692-top-k-frequent-words](https://github.com/kashishbishnoi23/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [1397-search-suggestions-system](https://github.com/kashishbishnoi23/Leetcode/tree/master/1397-search-suggestions-system) |
+| [3193-maximum-strong-pair-xor-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
 ## Memoization
 |  |
 | ------- |
