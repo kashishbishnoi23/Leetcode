@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/kashishbishnoi23/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0215-kth-largest-element-in-an-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/kashishbishnoi23/Leetcode/tree/master/0217-contains-duplicate) |
+| [0219-contains-duplicate-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0221-maximal-square](https://github.com/kashishbishnoi23/Leetcode/tree/master/0221-maximal-square) |
 | [0239-sliding-window-maximum](https://github.com/kashishbishnoi23/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/kashishbishnoi23/Leetcode/tree/master/0133-clone-graph) |
 | [0146-lru-cache](https://github.com/kashishbishnoi23/Leetcode/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/kashishbishnoi23/Leetcode/tree/master/0217-contains-duplicate) |
+| [0219-contains-duplicate-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0242-valid-anagram](https://github.com/kashishbishnoi23/Leetcode/tree/master/0242-valid-anagram) |
 | [0264-ugly-number-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0264-ugly-number-ii) |
 | [0347-top-k-frequent-elements](https://github.com/kashishbishnoi23/Leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -569,6 +571,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/kashishbishnoi23/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0219-contains-duplicate-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/kashishbishnoi23/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/kashishbishnoi23/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0713-subarray-product-less-than-k](https://github.com/kashishbishnoi23/Leetcode/tree/master/0713-subarray-product-less-than-k) |
