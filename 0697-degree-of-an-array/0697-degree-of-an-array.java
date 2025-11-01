@@ -31,7 +31,6 @@ class Solution {
 
         
         int ans = n;
-        System.out.println(deg);
 
         
 
@@ -48,7 +47,7 @@ class Solution {
                 // System.out.println("key = " + key);
                 // System.out.println("right = " + right);
                 // System.out.println("left = " + left);
-                System.out.println(ans + " " + node.count);
+                // System.out.println(ans + " " + node.count);
             }
 
         }
