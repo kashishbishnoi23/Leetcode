@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2469-longest-subsequence-with-limited-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2606-difference-between-ones-and-zeros-in-row-and-column](https://github.com/kashishbishnoi23/Leetcode/tree/master/2606-difference-between-ones-and-zeros-in-row-and-column) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/kashishbishnoi23/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/kashishbishnoi23/Leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -119,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2169-simple-bank-system](https://github.com/kashishbishnoi23/Leetcode/tree/master/2169-simple-bank-system) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/kashishbishnoi23/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/kashishbishnoi23/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## Divide and Conquer
 |  |
@@ -291,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0816-design-hashset](https://github.com/kashishbishnoi23/Leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/kashishbishnoi23/Leetcode/tree/master/0817-design-hashmap) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/kashishbishnoi23/Leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Merge Sort
 |  |
 | ------- |
