@@ -497,6 +497,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1119-robot-bounded-in-circle](https://github.com/kashishbishnoi23/Leetcode/tree/master/1119-robot-bounded-in-circle) |
 | [1642-water-bottles](https://github.com/kashishbishnoi23/Leetcode/tree/master/1642-water-bottles) |
 | [2169-simple-bank-system](https://github.com/kashishbishnoi23/Leetcode/tree/master/2169-simple-bank-system) |
+| [2288-count-operations-to-obtain-zero](https://github.com/kashishbishnoi23/Leetcode/tree/master/2288-count-operations-to-obtain-zero) |
 | [2606-difference-between-ones-and-zeros-in-row-and-column](https://github.com/kashishbishnoi23/Leetcode/tree/master/2606-difference-between-ones-and-zeros-in-row-and-column) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/kashishbishnoi23/Leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
 ## String
@@ -541,6 +542,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1642-water-bottles](https://github.com/kashishbishnoi23/Leetcode/tree/master/1642-water-bottles) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/kashishbishnoi23/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/kashishbishnoi23/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
+| [2288-count-operations-to-obtain-zero](https://github.com/kashishbishnoi23/Leetcode/tree/master/2288-count-operations-to-obtain-zero) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k](https://github.com/kashishbishnoi23/Leetcode/tree/master/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/kashishbishnoi23/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
