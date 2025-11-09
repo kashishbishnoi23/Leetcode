@@ -1,26 +1,22 @@
 class Solution {
 
-    private boolean recursive(String s, int index, int open, int close){
-
-        if(close > open) return false;
-        if (index == s.length()){
-            if (close == open) return true;
-            return false;
-        }
-
-        char ch = s.charAt(index);
-
-        if (ch == '('){
-            return recursive(s, index+1, open+1, close);
-        } else if (ch == ')'){
-            return recursive(s, index+1, open, close+1);
-        } else {
-            return recursive(s, index+1, open+1, close) || recursive(s, index+1, open, close+1) || recursive(s, index+1, open, close);
-        }
-
-    }
+    // private boolean recursion(String s, int index, int open, int close){
+    //     if (close > open) return false;
+    //     if (index == s.length()){
+    //         if (close == open) return true;
+    //         return false;
+    //     }
+    //     if (s.charAt(index) == '('){
+    //         return recursion(s, index+1, open+1, close);
+    //     } else if (s.charAt(index) == ')'){
+    //         return recursion(s, index+1, open, close+1);
+    //     } else {
+    //         return recursion(s, index+1, open, close) || recursion(s, index+1, open+1, close) || recursion(s, index+1, open, close+1);
+    //     }
+    // }
     public boolean checkValidString(String s) {
-        // return recursive(s, 0, 0, 0);
+        // return recursion(s, 0, 0, 0);
+
         int min = 0;
         int max = 0;
 
@@ -28,8 +24,8 @@ class Solution {
             char ch = s.charAt(i);
 
             if (ch == '('){
-                min ++;
-                max ++;
+                min++;
+                max++;
             } else if (ch == ')'){
                 min--;
                 max--;
@@ -39,10 +35,10 @@ class Solution {
             }
 
             if (min < 0) min = 0;
-            if (max == -1) return false;
+            if (max < 0) return false;
         }
 
-        return (min == 0);
-
+        if (min > 0) return false;
+        return true;
     }
 }
