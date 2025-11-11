@@ -22,7 +22,7 @@ class Solution {
             
             st.add(ch);
             if (req_count <= present_count) continue;
-            System.out.println(ch + " " + req_count + " " + present_count);
+
             ans += req_count-present_count;
         }
 
