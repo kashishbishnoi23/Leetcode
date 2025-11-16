@@ -22,54 +22,37 @@ class Solution {
     public Node cloneGraph(Node node) {
 
         if (node == null) return null;
+            Queue<Node> queue = new LinkedList<>();
+            HashMap<Integer, Node> hashing = new HashMap<>();
+            queue.offer(node);
+            hashing.put(node.val, new Node(node.val));
+            HashSet<Integer> st = new HashSet<>();
 
-        Map<Integer, ArrayList<Integer>> hashing = new TreeMap<>();
+            while(!queue.isEmpty()){
+                Node front = queue.poll();
+                int nodeVal = front.val;
+                List<Node> neighbours = front.neighbors;
+                if (st.contains(nodeVal)) continue;
+                st.add(nodeVal);
 
-        // go to neighbours of node:
+                for (Node nei : neighbours){
+                    // create new node if it does'nt exist
+                     Node neighbour;
+                     if (!hashing.containsKey(nei.val)){
+                        neighbour = new Node(nei.val);
+                        hashing.put(nei.val, neighbour);
+                     } else {
+                        neighbour = hashing.get(nei.val);
+                     }
 
-        Queue<Node> q = new LinkedList<>();
-
-        ArrayList<Node> arraylist = new ArrayList<>(101);
-
-        for (int i = 0; i <= 100; i++){
-            arraylist.add(new Node(i));
-        }
-
-        q.add(node);
-
-        while(!q.isEmpty()){
-            Node nod = q.poll();
-            int val = nod.val;
-
-            hashing.put(val, new ArrayList<>());
-            for (Node neigh : nod.neighbors){
-                hashing.get(val).add(neigh.val);
-
-                if (!hashing.containsKey(neigh.val)){
-                    q.add(neigh);
+                     hashing.get(nodeVal).neighbors.add(neighbour);
+                     queue.offer(nei);
                 }
             }
-        }
 
-        for (int nod : hashing.keySet()){
-            Node nodee = arraylist.get(nod);
-
-            List<Node> neighbours = new ArrayList<>();
-
-            for (int neigh : hashing.get(nod)){
-                neighbours.add(arraylist.get(neigh));
-            }
-            nodee.neighbors = neighbours;
-            
-        }
-
-        return arraylist.get(1);
+            return hashing.get(node.val);
 
 
 
-
-
-
-        
     }
 }
