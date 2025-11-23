@@ -716,6 +716,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1179-reformat-department-table](https://github.com/kashishbishnoi23/Leetcode/tree/master/1179-reformat-department-table) |
 | [1251-average-selling-price](https://github.com/kashishbishnoi23/Leetcode/tree/master/1251-average-selling-price) |
 | [1280-students-and-examinations](https://github.com/kashishbishnoi23/Leetcode/tree/master/1280-students-and-examinations) |
+| [1327-list-the-products-ordered-in-a-period](https://github.com/kashishbishnoi23/Leetcode/tree/master/1327-list-the-products-ordered-in-a-period) |
 ## Topological Sort
 |  |
 | ------- |
