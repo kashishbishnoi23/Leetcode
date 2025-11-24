@@ -40,11 +40,11 @@ class Solution {
             int node = front.node;
             int curr_dist = front.dist;
 
-            // if (distance[node] >= curr_dist){
-            //     distance[node] = curr_dist;
-            // } else {
-            //     continue;
-            // }
+            if (distance[node] >= curr_dist){
+                distance[node] = curr_dist;
+            } else {
+                continue;
+            }
              
             if (!hashing.containsKey(node)) continue;
             // go to its neighbours:
@@ -64,15 +64,6 @@ class Solution {
 
        int ans = -1;
 
-    //    for (int dist : distance){
-    //     if (dist == Integer.MAX_VALUE){
-    //         return -1;
-    //     }
-    //     if (dist != 0 ){
-    //         ans = Math.max(ans, dist);
-    //     }
-    
-    //    }
 
     for (int i = 1; i <= n; i++){
         if (distance[i] == Integer.MAX_VALUE) return -1;
