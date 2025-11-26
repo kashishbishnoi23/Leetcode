@@ -82,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-number-of-enclaves](https://github.com/kashishbishnoi23/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1036-rotting-oranges](https://github.com/kashishbishnoi23/Leetcode/tree/master/1036-rotting-oranges) |
 | [1127-last-stone-weight](https://github.com/kashishbishnoi23/Leetcode/tree/master/1127-last-stone-weight) |
+| [1254-number-of-closed-islands](https://github.com/kashishbishnoi23/Leetcode/tree/master/1254-number-of-closed-islands) |
 | [1397-search-suggestions-system](https://github.com/kashishbishnoi23/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1428-jump-game-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1428-jump-game-iii) |
 | [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/kashishbishnoi23/Leetcode/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
@@ -418,6 +419,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0975-range-sum-of-bst](https://github.com/kashishbishnoi23/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [1020-number-of-enclaves](https://github.com/kashishbishnoi23/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1254-number-of-closed-islands](https://github.com/kashishbishnoi23/Leetcode/tree/master/1254-number-of-closed-islands) |
 | [1428-jump-game-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1428-jump-game-iii) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/kashishbishnoi23/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/kashishbishnoi23/Leetcode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
@@ -450,6 +452,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1020-number-of-enclaves](https://github.com/kashishbishnoi23/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/kashishbishnoi23/Leetcode/tree/master/1036-rotting-oranges) |
+| [1254-number-of-closed-islands](https://github.com/kashishbishnoi23/Leetcode/tree/master/1254-number-of-closed-islands) |
 | [1428-jump-game-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1428-jump-game-iii) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/kashishbishnoi23/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/kashishbishnoi23/Leetcode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
@@ -493,6 +496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/kashishbishnoi23/Leetcode/tree/master/0695-max-area-of-island) |
 | [0794-swim-in-rising-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [1020-number-of-enclaves](https://github.com/kashishbishnoi23/Leetcode/tree/master/1020-number-of-enclaves) |
+| [1254-number-of-closed-islands](https://github.com/kashishbishnoi23/Leetcode/tree/master/1254-number-of-closed-islands) |
 ## Graph
 |  |
 | ------- |
@@ -524,6 +528,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [1020-number-of-enclaves](https://github.com/kashishbishnoi23/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1036-rotting-oranges](https://github.com/kashishbishnoi23/Leetcode/tree/master/1036-rotting-oranges) |
+| [1254-number-of-closed-islands](https://github.com/kashishbishnoi23/Leetcode/tree/master/1254-number-of-closed-islands) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1845-largest-submatrix-with-rearrangements](https://github.com/kashishbishnoi23/Leetcode/tree/master/1845-largest-submatrix-with-rearrangements) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/kashishbishnoi23/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
