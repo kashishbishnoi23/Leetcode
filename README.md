@@ -101,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2606-difference-between-ones-and-zeros-in-row-and-column](https://github.com/kashishbishnoi23/Leetcode/tree/master/2606-difference-between-ones-and-zeros-in-row-and-column) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/kashishbishnoi23/Leetcode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
+| [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/kashishbishnoi23/Leetcode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/kashishbishnoi23/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/kashishbishnoi23/Leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2169-simple-bank-system](https://github.com/kashishbishnoi23/Leetcode/tree/master/2169-simple-bank-system) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/kashishbishnoi23/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
+| [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/kashishbishnoi23/Leetcode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/kashishbishnoi23/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## Divide and Conquer
@@ -648,6 +650,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0713-subarray-product-less-than-k](https://github.com/kashishbishnoi23/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/kashishbishnoi23/Leetcode/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
+| [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/kashishbishnoi23/Leetcode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/kashishbishnoi23/Leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
 ## Queue
 |  |
