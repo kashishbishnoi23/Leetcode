@@ -525,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/kashishbishnoi23/Leetcode/tree/master/0547-number-of-provinces) |
 | [0743-network-delay-time](https://github.com/kashishbishnoi23/Leetcode/tree/master/0743-network-delay-time) |
 | [1494-parallel-courses-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1494-parallel-courses-ii) |
+| [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/kashishbishnoi23/Leetcode/tree/master/1557-minimum-number-of-vertices-to-reach-all-nodes) |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/kashishbishnoi23/Leetcode/tree/master/2328-number-of-increasing-paths-in-a-grid) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/kashishbishnoi23/Leetcode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
