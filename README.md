@@ -413,6 +413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/kashishbishnoi23/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0310-minimum-height-trees](https://github.com/kashishbishnoi23/Leetcode/tree/master/0310-minimum-height-trees) |
+| [0332-reconstruct-itinerary](https://github.com/kashishbishnoi23/Leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0417-pacific-atlantic-water-flow](https://github.com/kashishbishnoi23/Leetcode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0419-battleships-in-a-board](https://github.com/kashishbishnoi23/Leetcode/tree/master/0419-battleships-in-a-board) |
 | [0463-island-perimeter](https://github.com/kashishbishnoi23/Leetcode/tree/master/0463-island-perimeter) |
@@ -516,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/kashishbishnoi23/Leetcode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0310-minimum-height-trees](https://github.com/kashishbishnoi23/Leetcode/tree/master/0310-minimum-height-trees) |
+| [0332-reconstruct-itinerary](https://github.com/kashishbishnoi23/Leetcode/tree/master/0332-reconstruct-itinerary) |
 | [0547-number-of-provinces](https://github.com/kashishbishnoi23/Leetcode/tree/master/0547-number-of-provinces) |
 | [0743-network-delay-time](https://github.com/kashishbishnoi23/Leetcode/tree/master/0743-network-delay-time) |
 | [1494-parallel-courses-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1494-parallel-courses-ii) |
@@ -785,4 +787,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1494-parallel-courses-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1494-parallel-courses-ii) |
+## Eulerian Circuit
+|  |
+| ------- |
+| [0332-reconstruct-itinerary](https://github.com/kashishbishnoi23/Leetcode/tree/master/0332-reconstruct-itinerary) |
 <!---LeetCode Topics End-->
