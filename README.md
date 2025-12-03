@@ -789,6 +789,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1741-find-total-time-spent-by-each-employee](https://github.com/kashishbishnoi23/Leetcode/tree/master/1741-find-total-time-spent-by-each-employee) |
 | [1757-recyclable-and-low-fat-products](https://github.com/kashishbishnoi23/Leetcode/tree/master/1757-recyclable-and-low-fat-products) |
 | [1789-primary-department-for-each-employee](https://github.com/kashishbishnoi23/Leetcode/tree/master/1789-primary-department-for-each-employee) |
+| [1873-calculate-special-bonus](https://github.com/kashishbishnoi23/Leetcode/tree/master/1873-calculate-special-bonus) |
 ## Topological Sort
 |  |
 | ------- |
