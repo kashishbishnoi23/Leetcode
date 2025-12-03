@@ -1,0 +1,2 @@
+# Write your MySQL query statement below
+select A.event_day as day, A.emp_id, SUM(Diff) as total_time from (select (out_time - in_time) as Diff, emp_id, event_day  from Employees) A group by A.emp_id, A.event_day;
