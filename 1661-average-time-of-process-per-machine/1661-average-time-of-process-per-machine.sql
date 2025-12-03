@@ -1,0 +1,4 @@
+# Write your MySQL query statement below
+-- select machine_id, AVG(diff) as processing_time from (select (R2.timestamp - R1.timestamp) AS diff from Activity R1 join Activity R2 on R1.process_id = R2.process_id AND R2.timestamp > R1.timestamp) A where A.machine_id = machine_id group by machine_id;
+
+select A.machine_id, ROUND(AVG(Diff), 3) as processing_time from (select (R2.timestamp - R1.timestamp) as Diff , R1.machine_id from Activity R2 join Activity R1 on R2.process_id = R1.process_id AND R2.machine_id = R1.machine_id AND R2.activity_type = 'end' AND R1.activity_type = 'start') A group by A.machine_id;
