@@ -392,6 +392,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/kashishbishnoi23/Leetcode/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/kashishbishnoi23/Leetcode/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/kashishbishnoi23/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
+| [2211-count-collisions-on-a-road](https://github.com/kashishbishnoi23/Leetcode/tree/master/2211-count-collisions-on-a-road) |
 | [2227-sum-of-subarray-ranges](https://github.com/kashishbishnoi23/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 ## Depth-First Search
@@ -569,6 +570,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1119-robot-bounded-in-circle](https://github.com/kashishbishnoi23/Leetcode/tree/master/1119-robot-bounded-in-circle) |
 | [1642-water-bottles](https://github.com/kashishbishnoi23/Leetcode/tree/master/1642-water-bottles) |
 | [2169-simple-bank-system](https://github.com/kashishbishnoi23/Leetcode/tree/master/2169-simple-bank-system) |
+| [2211-count-collisions-on-a-road](https://github.com/kashishbishnoi23/Leetcode/tree/master/2211-count-collisions-on-a-road) |
 | [2288-count-operations-to-obtain-zero](https://github.com/kashishbishnoi23/Leetcode/tree/master/2288-count-operations-to-obtain-zero) |
 | [2606-difference-between-ones-and-zeros-in-row-and-column](https://github.com/kashishbishnoi23/Leetcode/tree/master/2606-difference-between-ones-and-zeros-in-row-and-column) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/kashishbishnoi23/Leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
@@ -599,6 +601,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1397-search-suggestions-system](https://github.com/kashishbishnoi23/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/kashishbishnoi23/Leetcode/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/kashishbishnoi23/Leetcode/tree/master/1930-unique-length-3-palindromic-subsequences) |
+| [2211-count-collisions-on-a-road](https://github.com/kashishbishnoi23/Leetcode/tree/master/2211-count-collisions-on-a-road) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/kashishbishnoi23/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [3346-lexicographically-smallest-string-after-operations-with-constraint](https://github.com/kashishbishnoi23/Leetcode/tree/master/3346-lexicographically-smallest-string-after-operations-with-constraint) |
 ## Math
