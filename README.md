@@ -99,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/kashishbishnoi23/Leetcode/tree/master/2328-number-of-increasing-paths-in-a-grid) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/kashishbishnoi23/Leetcode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
+| [2603-collect-coins-in-a-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/2603-collect-coins-in-a-tree) |
 | [2606-difference-between-ones-and-zeros-in-row-and-column](https://github.com/kashishbishnoi23/Leetcode/tree/master/2606-difference-between-ones-and-zeros-in-row-and-column) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/kashishbishnoi23/Leetcode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
@@ -248,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0975-range-sum-of-bst](https://github.com/kashishbishnoi23/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/kashishbishnoi23/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
+| [2603-collect-coins-in-a-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/2603-collect-coins-in-a-tree) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/kashishbishnoi23/Leetcode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Design
 |  |
@@ -529,6 +531,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1494-parallel-courses-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1494-parallel-courses-ii) |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/kashishbishnoi23/Leetcode/tree/master/1557-minimum-number-of-vertices-to-reach-all-nodes) |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/kashishbishnoi23/Leetcode/tree/master/2328-number-of-increasing-paths-in-a-grid) |
+| [2603-collect-coins-in-a-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/2603-collect-coins-in-a-tree) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/kashishbishnoi23/Leetcode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
@@ -805,6 +808,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0210-course-schedule-ii) |
 | [0310-minimum-height-trees](https://github.com/kashishbishnoi23/Leetcode/tree/master/0310-minimum-height-trees) |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/kashishbishnoi23/Leetcode/tree/master/2328-number-of-increasing-paths-in-a-grid) |
+| [2603-collect-coins-in-a-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/2603-collect-coins-in-a-tree) |
 ## Bitmask
 |  |
 | ------- |
