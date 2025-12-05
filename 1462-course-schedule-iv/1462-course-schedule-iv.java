@@ -11,6 +11,8 @@ class Solution {
 
     public List<Boolean> checkIfPrerequisite(int numCourses, int[][] prerequisites, int[][] queries) {
 
+        // agar ek course A se mai course B pahuch paa rhi hu -> directly ya indirectly -> iska matlab muje B se pehle A course krna padega so B is dependent on A 
+
         List<Boolean> ans = new ArrayList<>();
         if (prerequisites.length == 0){
             for (int i = 0; i < queries.length; i++){
