@@ -1,79 +1,74 @@
 class Solution {
 
     public int collectTheCoins(int[] coins, int[][] edges) {
-       int n = coins.length;
-        List<List<Integer>> adj = new ArrayList<>();
-        int[] deg = new int[n];
+        int n = coins.length;
 
-        for (int i = 0; i < n; i++) adj.add(new ArrayList<>());
+        ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
+        for (int i = 0; i < n; i++){
+            adj.add(new ArrayList<>());
+        }
+        int[] degree = new int[n];
 
-        // build graph
-        for (int[] e : edges) {
-            int u = e[0], v = e[1];
-            adj.get(u).add(v);
-            adj.get(v).add(u);
-            deg[u]++;
-            deg[v]++;
+        for (int[] edge : edges){
+            int a = edge[0];
+            int b = edge[1];
+            adj.get(a).add(b);
+            adj.get(b).add(a);
+            degree[a]++;
+            degree[b]++;
+
         }
 
-        // Phase 1 pruning : remove leaf nodes without coins
+        // vo leaves kaat do jinpe coin nahi hai -> cuz ye leaves hamare kisi kaam ki nahi hai
         Queue<Integer> q = new LinkedList<>();
-
-        for (int i = 0; i < n; i++) {
-            if (deg[i] == 1 && coins[i] == 0) {
+        for (int i = 0; i < n; i++){
+            if (degree[i] == 1 && coins[i] == 0){
                 q.offer(i);
             }
         }
 
-        while (!q.isEmpty()) {
-            int u = q.poll();
-            if (deg[u] == 0) continue;
+        while(!q.isEmpty()){
+            int front = q.poll();
+            // if (degree[front] == 0) continue; 
+            degree[front] = 0; // dead leaf
 
-            deg[u] = 0; // removed
-
-            for (int v : adj.get(u)) {
-                if (deg[v] > 0) {
-                    deg[v]--;
-                    if (deg[v] == 1 && coins[v] == 0) {
-                        q.offer(v);
-                    }
+            for (int neigh : adj.get(front)){
+                degree[neigh]--;
+                if (coins[neigh] == 0 && degree[neigh] == 1){
+                    q.offer(neigh);
                 }
             }
         }
 
-        // Phase 2 pruning : two rounds (distance ≤ 2)
-        for (int round = 0; round < 2; round++) {
-
-            for (int i = 0; i < n; i++) {
-                if (deg[i] == 1) {
+        // ab meri sari leaves pe sirf coins hai 
+         
+        for (int rounds = 0; rounds < 2; rounds++){
+            for (int i = 0; i < n; i++){
+                if (degree[i] == 1){
                     q.offer(i);
                 }
             }
 
-            while (!q.isEmpty()) {
-                int u = q.poll();
-                if (deg[u] == 0) continue;
+            while(!q.isEmpty()){
+                int front = q.poll();
+                degree[front] = 0;
 
-                deg[u] = 0;
-
-                for (int v : adj.get(u)) {
-                    if (deg[v] > 0) {
-                        deg[v]--;
-                    }
+                for (int neigh : adj.get(front)){
+                    if (degree[neigh] > 0) degree[neigh]--;
                 }
             }
         }
 
-        // count remaining edges
-        int cnt = 0;
-        for (int[] e : edges) {
-            if (deg[e[0]] > 0 && deg[e[1]] > 0) {
-                cnt++;
-            }
+        int count = 0;
+
+        for (int[] edge : edges){
+            int a = edge[0];
+            int b = edge[1];
+
+            if (degree[a] > 0 && degree[b] > 0) count++;
         }
 
-        return cnt * 2;
-
+        return 2*count;
     
     }
 }
