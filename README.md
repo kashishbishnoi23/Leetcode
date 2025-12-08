@@ -442,6 +442,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1254-number-of-closed-islands](https://github.com/kashishbishnoi23/Leetcode/tree/master/1254-number-of-closed-islands) |
 | [1428-jump-game-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1428-jump-game-iii) |
 | [1462-course-schedule-iv](https://github.com/kashishbishnoi23/Leetcode/tree/master/1462-course-schedule-iv) |
+| [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/kashishbishnoi23/Leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/kashishbishnoi23/Leetcode/tree/master/2328-number-of-increasing-paths-in-a-grid) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/kashishbishnoi23/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/kashishbishnoi23/Leetcode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
@@ -481,6 +482,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1254-number-of-closed-islands](https://github.com/kashishbishnoi23/Leetcode/tree/master/1254-number-of-closed-islands) |
 | [1428-jump-game-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1428-jump-game-iii) |
 | [1462-course-schedule-iv](https://github.com/kashishbishnoi23/Leetcode/tree/master/1462-course-schedule-iv) |
+| [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/kashishbishnoi23/Leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/kashishbishnoi23/Leetcode/tree/master/2328-number-of-increasing-paths-in-a-grid) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/kashishbishnoi23/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/kashishbishnoi23/Leetcode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
@@ -545,6 +547,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1494-parallel-courses-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1494-parallel-courses-ii) |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/kashishbishnoi23/Leetcode/tree/master/1557-minimum-number-of-vertices-to-reach-all-nodes) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/kashishbishnoi23/Leetcode/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
+| [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/kashishbishnoi23/Leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/kashishbishnoi23/Leetcode/tree/master/2328-number-of-increasing-paths-in-a-grid) |
 | [2603-collect-coins-in-a-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/2603-collect-coins-in-a-tree) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/kashishbishnoi23/Leetcode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
@@ -831,6 +834,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [1462-course-schedule-iv](https://github.com/kashishbishnoi23/Leetcode/tree/master/1462-course-schedule-iv) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/kashishbishnoi23/Leetcode/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
+| [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/kashishbishnoi23/Leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/kashishbishnoi23/Leetcode/tree/master/2328-number-of-increasing-paths-in-a-grid) |
 | [2603-collect-coins-in-a-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/2603-collect-coins-in-a-tree) |
 ## Bitmask
