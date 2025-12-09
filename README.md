@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3432-count-partitions-with-even-sum-difference](https://github.com/kashishbishnoi23/Leetcode/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/kashishbishnoi23/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
+| [3583-count-special-triplets](https://github.com/kashishbishnoi23/Leetcode/tree/master/3583-count-special-triplets) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/kashishbishnoi23/Leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
@@ -155,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/kashishbishnoi23/Leetcode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/kashishbishnoi23/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
+| [3583-count-special-triplets](https://github.com/kashishbishnoi23/Leetcode/tree/master/3583-count-special-triplets) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -228,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/kashishbishnoi23/Leetcode/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/kashishbishnoi23/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/kashishbishnoi23/Leetcode/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
+| [3583-count-special-triplets](https://github.com/kashishbishnoi23/Leetcode/tree/master/3583-count-special-triplets) |
 ## Quickselect
 |  |
 | ------- |
