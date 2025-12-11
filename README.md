@@ -88,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1127-last-stone-weight](https://github.com/kashishbishnoi23/Leetcode/tree/master/1127-last-stone-weight) |
 | [1162-as-far-from-land-as-possible](https://github.com/kashishbishnoi23/Leetcode/tree/master/1162-as-far-from-land-as-possible) |
 | [1254-number-of-closed-islands](https://github.com/kashishbishnoi23/Leetcode/tree/master/1254-number-of-closed-islands) |
+| [1345-jump-game-iv](https://github.com/kashishbishnoi23/Leetcode/tree/master/1345-jump-game-iv) |
 | [1397-search-suggestions-system](https://github.com/kashishbishnoi23/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1428-jump-game-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1428-jump-game-iii) |
 | [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/kashishbishnoi23/Leetcode/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0876-hand-of-straights](https://github.com/kashishbishnoi23/Leetcode/tree/master/0876-hand-of-straights) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/kashishbishnoi23/Leetcode/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1345-jump-game-iv](https://github.com/kashishbishnoi23/Leetcode/tree/master/1345-jump-game-iv) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/kashishbishnoi23/Leetcode/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/kashishbishnoi23/Leetcode/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/kashishbishnoi23/Leetcode/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
@@ -500,6 +502,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1091-shortest-path-in-binary-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1162-as-far-from-land-as-possible](https://github.com/kashishbishnoi23/Leetcode/tree/master/1162-as-far-from-land-as-possible) |
 | [1254-number-of-closed-islands](https://github.com/kashishbishnoi23/Leetcode/tree/master/1254-number-of-closed-islands) |
+| [1345-jump-game-iv](https://github.com/kashishbishnoi23/Leetcode/tree/master/1345-jump-game-iv) |
 | [1428-jump-game-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1428-jump-game-iii) |
 | [1462-course-schedule-iv](https://github.com/kashishbishnoi23/Leetcode/tree/master/1462-course-schedule-iv) |
 | [1631-path-with-minimum-effort](https://github.com/kashishbishnoi23/Leetcode/tree/master/1631-path-with-minimum-effort) |
