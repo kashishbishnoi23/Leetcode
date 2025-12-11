@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1428-jump-game-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1428-jump-game-iii) |
 | [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/kashishbishnoi23/Leetcode/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
+| [1514-path-with-maximum-probability](https://github.com/kashishbishnoi23/Leetcode/tree/master/1514-path-with-maximum-probability) |
 | [1631-path-with-minimum-effort](https://github.com/kashishbishnoi23/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1845-largest-submatrix-with-rearrangements](https://github.com/kashishbishnoi23/Leetcode/tree/master/1845-largest-submatrix-with-rearrangements) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/kashishbishnoi23/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -219,6 +220,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1127-last-stone-weight](https://github.com/kashishbishnoi23/Leetcode/tree/master/1127-last-stone-weight) |
 | [1397-search-suggestions-system](https://github.com/kashishbishnoi23/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
+| [1514-path-with-maximum-probability](https://github.com/kashishbishnoi23/Leetcode/tree/master/1514-path-with-maximum-probability) |
 | [1631-path-with-minimum-effort](https://github.com/kashishbishnoi23/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [2327-largest-number-after-digit-swaps-by-parity](https://github.com/kashishbishnoi23/Leetcode/tree/master/2327-largest-number-after-digit-swaps-by-parity) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -562,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/kashishbishnoi23/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1462-course-schedule-iv](https://github.com/kashishbishnoi23/Leetcode/tree/master/1462-course-schedule-iv) |
 | [1494-parallel-courses-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1494-parallel-courses-ii) |
+| [1514-path-with-maximum-probability](https://github.com/kashishbishnoi23/Leetcode/tree/master/1514-path-with-maximum-probability) |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/kashishbishnoi23/Leetcode/tree/master/1557-minimum-number-of-vertices-to-reach-all-nodes) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/kashishbishnoi23/Leetcode/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/kashishbishnoi23/Leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
@@ -754,6 +757,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0743-network-delay-time](https://github.com/kashishbishnoi23/Leetcode/tree/master/0743-network-delay-time) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kashishbishnoi23/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
+| [1514-path-with-maximum-probability](https://github.com/kashishbishnoi23/Leetcode/tree/master/1514-path-with-maximum-probability) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Combinatorics
