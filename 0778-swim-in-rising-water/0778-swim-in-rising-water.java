@@ -57,7 +57,7 @@ class Solution {
             }
         }
 
-        if (grid[0][0] > start) return grid[0][0];
+        // if (grid[0][0] > start) return grid[0][0];
 
         return start;
 
