@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/kashishbishnoi23/Leetcode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/kashishbishnoi23/Leetcode/tree/master/0739-daily-temperatures) |
 | [0740-delete-and-earn](https://github.com/kashishbishnoi23/Leetcode/tree/master/0740-delete-and-earn) |
+| [0773-sliding-puzzle](https://github.com/kashishbishnoi23/Leetcode/tree/master/0773-sliding-puzzle) |
 | [0778-swim-in-rising-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0778-swim-in-rising-water) |
 | [0794-swim-in-rising-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0816-design-hashset](https://github.com/kashishbishnoi23/Leetcode/tree/master/0816-design-hashset) |
@@ -493,6 +494,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/kashishbishnoi23/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/kashishbishnoi23/Leetcode/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/kashishbishnoi23/Leetcode/tree/master/0743-network-delay-time) |
+| [0773-sliding-puzzle](https://github.com/kashishbishnoi23/Leetcode/tree/master/0773-sliding-puzzle) |
 | [0778-swim-in-rising-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0778-swim-in-rising-water) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kashishbishnoi23/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0794-swim-in-rising-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0794-swim-in-rising-water) |
@@ -534,6 +536,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/kashishbishnoi23/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0740-delete-and-earn](https://github.com/kashishbishnoi23/Leetcode/tree/master/0740-delete-and-earn) |
+| [0773-sliding-puzzle](https://github.com/kashishbishnoi23/Leetcode/tree/master/0773-sliding-puzzle) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kashishbishnoi23/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0943-sum-of-subarray-minimums](https://github.com/kashishbishnoi23/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1162-as-far-from-land-as-possible](https://github.com/kashishbishnoi23/Leetcode/tree/master/1162-as-far-from-land-as-possible) |
@@ -600,6 +603,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/0542-01-matrix) |
 | [0695-max-area-of-island](https://github.com/kashishbishnoi23/Leetcode/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/kashishbishnoi23/Leetcode/tree/master/0733-flood-fill) |
+| [0773-sliding-puzzle](https://github.com/kashishbishnoi23/Leetcode/tree/master/0773-sliding-puzzle) |
 | [0778-swim-in-rising-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0778-swim-in-rising-water) |
 | [0794-swim-in-rising-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [1020-number-of-enclaves](https://github.com/kashishbishnoi23/Leetcode/tree/master/1020-number-of-enclaves) |
@@ -696,6 +700,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/kashishbishnoi23/Leetcode/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0052-n-queens-ii) |
 | [0090-subsets-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0090-subsets-ii) |
+| [0773-sliding-puzzle](https://github.com/kashishbishnoi23/Leetcode/tree/master/0773-sliding-puzzle) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/kashishbishnoi23/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Bit Manipulation
 |  |
@@ -791,6 +796,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0773-sliding-puzzle](https://github.com/kashishbishnoi23/Leetcode/tree/master/0773-sliding-puzzle) |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/kashishbishnoi23/Leetcode/tree/master/2328-number-of-increasing-paths-in-a-grid) |
 | [2404-number-of-distinct-roll-sequences](https://github.com/kashishbishnoi23/Leetcode/tree/master/2404-number-of-distinct-roll-sequences) |
 ## Hash Function
