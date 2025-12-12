@@ -228,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1514-path-with-maximum-probability](https://github.com/kashishbishnoi23/Leetcode/tree/master/1514-path-with-maximum-probability) |
 | [1631-path-with-minimum-effort](https://github.com/kashishbishnoi23/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [2327-largest-number-after-digit-swaps-by-parity](https://github.com/kashishbishnoi23/Leetcode/tree/master/2327-largest-number-after-digit-swaps-by-parity) |
+| [2642-design-graph-with-shortest-path-calculator](https://github.com/kashishbishnoi23/Leetcode/tree/master/2642-design-graph-with-shortest-path-calculator) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Bucket Sort
@@ -289,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0817-design-hashmap](https://github.com/kashishbishnoi23/Leetcode/tree/master/0817-design-hashmap) |
 | [0937-online-stock-span](https://github.com/kashishbishnoi23/Leetcode/tree/master/0937-online-stock-span) |
 | [2169-simple-bank-system](https://github.com/kashishbishnoi23/Leetcode/tree/master/2169-simple-bank-system) |
+| [2642-design-graph-with-shortest-path-calculator](https://github.com/kashishbishnoi23/Leetcode/tree/master/2642-design-graph-with-shortest-path-calculator) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -584,6 +586,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/kashishbishnoi23/Leetcode/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/kashishbishnoi23/Leetcode/tree/master/2328-number-of-increasing-paths-in-a-grid) |
 | [2603-collect-coins-in-a-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/2603-collect-coins-in-a-tree) |
+| [2642-design-graph-with-shortest-path-calculator](https://github.com/kashishbishnoi23/Leetcode/tree/master/2642-design-graph-with-shortest-path-calculator) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/kashishbishnoi23/Leetcode/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
@@ -776,6 +779,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/kashishbishnoi23/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/kashishbishnoi23/Leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1514-path-with-maximum-probability](https://github.com/kashishbishnoi23/Leetcode/tree/master/1514-path-with-maximum-probability) |
+| [2642-design-graph-with-shortest-path-calculator](https://github.com/kashishbishnoi23/Leetcode/tree/master/2642-design-graph-with-shortest-path-calculator) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Combinatorics
