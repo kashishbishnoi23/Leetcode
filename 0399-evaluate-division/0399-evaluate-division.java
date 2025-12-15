@@ -14,8 +14,6 @@ class Solution {
     private double dfs(String start, String node, String end, HashMap<String, ArrayList<Node>> hashing,HashSet<String> visited){ 
         
         visited.add(node);
-        System.out.println(node);
-        double next = -1.0;
 
         if (node.equals(end)) return 1.0;
 
@@ -27,8 +25,8 @@ class Solution {
                 double val = neigh.val;
 
                    
-                next = val*dfs(start, str, end, hashing, visited);
-                System.out.println("next = " + next);
+                double next = val*dfs(start, str, end, hashing, visited);
+                // System.out.println("next = " + next);
                 if (next >= 0) return next;
 
             }
@@ -76,20 +74,11 @@ class Solution {
             if (hashing.containsKey(a) && hashing.containsKey(b)){
               div = dfs(a, a, b, hashing,visited);
             }
-            System.out.println("break");
+
             ans[i] = div;
         }
 
         return ans;
-
-
-
-
-
-
-
-
-
 
 
     }
