@@ -43,11 +43,6 @@ class Solution {
             for (int node : graph[i]){
                 adj.get(i).add(node);
             }
-            
-            System.out.println("i =" + i);
-            for (int a : adj.get(i)){
-                System.out.println(a);
-            }
         }
 
         
