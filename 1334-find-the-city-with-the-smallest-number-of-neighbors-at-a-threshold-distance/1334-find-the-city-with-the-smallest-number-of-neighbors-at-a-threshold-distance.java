@@ -1,45 +1,53 @@
 class Solution {
 
-
     class Node{
-    int node;
-    int cities;
+        int node;
+        int cities;
 
-    public Node(int node, int cities){
-         this.node = node;
-         this.cities = cities;
+        public Node(int node, int cities){
+            this.node = node;
+            this.cities = cities;
+        }
     }
-   }
+
+
     public int findTheCity(int n, int[][] edges, int distanceThreshold) {
         
-        int[][] dis = new int[n][n];
 
-        // Arrays.fill(dis, 100000);
+        Integer[][] distances = new Integer[n][n];
+
         for (int i = 0; i < n; i++){
-            Arrays.fill(dis[i], 100000);
+            distances[i][i] = 0;
         }
 
         for (int[] edge : edges){
-            dis[edge[0]][edge[1]] = edge[2];
-            dis[edge[1]][edge[0]] = edge[2];
+           int a = edge[0];
+           int b = edge[1];
+           int w = edge[2];
+           distances[a][b] = w;
+           distances[b][a] = w;
 
-            dis[edge[0]][edge[0]] = 0;
-            dis[edge[1]][edge[1]] = 0;
+         
         }
 
-        // go to each city using every k city:
+        // I have to reach from city a to city b within a distance of distanceThreshold , maybe floyd warshall?? find all the minimum distances
 
+    
         for (int k = 0; k < n; k++){
             for (int i = 0; i < n; i++){
                 for (int j = 0; j < n; j++){
-                    if (dis[i][k] + dis[k][j] < dis[i][j]){
-                        dis[i][j] = dis[i][k] + dis[k][j];
+                   if (distances[i][k] != null && distances[k][j] != null){
+                    int newd = distances[i][k] + distances[k][j];
+                    if (distances[i][j] == null || distances[i][j] > newd){
+                        distances[i][j] = newd;
                     }
+
+                   }
                 }
             }
         }
 
-        PriorityQueue<Node> pq = new PriorityQueue<>((a, b) -> {
+         PriorityQueue<Node> pq = new PriorityQueue<>((a, b) -> {
             if (a.cities != b.cities){
                 return Integer.compare(a.cities, b.cities);
             }
@@ -51,7 +59,7 @@ class Solution {
         for (int i = 0; i < n; i++){
             int count = 0;
             for (int j = 0; j < n; j++){
-                if (dis[i][j] <= distanceThreshold){
+                if (distances[i][j] != null && distances[i][j] <= distanceThreshold){
                     count++;
                 }
             }
