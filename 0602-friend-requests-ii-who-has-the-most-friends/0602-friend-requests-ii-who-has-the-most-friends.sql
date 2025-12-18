@@ -16,10 +16,18 @@ SELECT requester_id as id  from RequestAccepted
 UNION ALL
 SELECT accepter_id as id  from RequestAccepted
 ) t 
-GROUP BY id
-ORDER BY num DESC
-LIMIT 1
-;
+GROUP BY id having num = (
+    SELECT MAX(num) 
+    FROM (
+        SELECT id, COUNT(*) AS num
+        FROM (
+            SELECT requester_id as id from RequestAccepted
+            UNION ALL
+            SELECT accepter_id as id from RequestAccepted
+        ) t2 
+        GROUP BY id
+    )m
+);
 
 
 -- SELECT id, num
