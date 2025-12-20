@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/kashishbishnoi23/Leetcode/tree/master/0695-max-area-of-island) |
 | [0697-degree-of-an-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0697-degree-of-an-array) |
 | [0713-subarray-product-less-than-k](https://github.com/kashishbishnoi23/Leetcode/tree/master/0713-subarray-product-less-than-k) |
+| [0721-accounts-merge](https://github.com/kashishbishnoi23/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/kashishbishnoi23/Leetcode/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/kashishbishnoi23/Leetcode/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/kashishbishnoi23/Leetcode/tree/master/0739-daily-temperatures) |
@@ -148,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/kashishbishnoi23/Leetcode/tree/master/0621-task-scheduler) |
 | [0692-top-k-frequent-words](https://github.com/kashishbishnoi23/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [0697-degree-of-an-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0697-degree-of-an-array) |
+| [0721-accounts-merge](https://github.com/kashishbishnoi23/Leetcode/tree/master/0721-accounts-merge) |
 | [0740-delete-and-earn](https://github.com/kashishbishnoi23/Leetcode/tree/master/0740-delete-and-earn) |
 | [0816-design-hashset](https://github.com/kashishbishnoi23/Leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/kashishbishnoi23/Leetcode/tree/master/0817-design-hashmap) |
@@ -192,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/kashishbishnoi23/Leetcode/tree/master/0621-task-scheduler) |
 | [0630-course-schedule-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0630-course-schedule-iii) |
 | [0692-top-k-frequent-words](https://github.com/kashishbishnoi23/Leetcode/tree/master/0692-top-k-frequent-words) |
+| [0721-accounts-merge](https://github.com/kashishbishnoi23/Leetcode/tree/master/0721-accounts-merge) |
 | [0876-hand-of-straights](https://github.com/kashishbishnoi23/Leetcode/tree/master/0876-hand-of-straights) |
 | [1018-largest-perimeter-triangle](https://github.com/kashishbishnoi23/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -456,6 +459,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/kashishbishnoi23/Leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/kashishbishnoi23/Leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/kashishbishnoi23/Leetcode/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/kashishbishnoi23/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/kashishbishnoi23/Leetcode/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/kashishbishnoi23/Leetcode/tree/master/0743-network-delay-time) |
 | [0778-swim-in-rising-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0778-swim-in-rising-water) |
@@ -500,6 +504,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/kashishbishnoi23/Leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/kashishbishnoi23/Leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/kashishbishnoi23/Leetcode/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/kashishbishnoi23/Leetcode/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/kashishbishnoi23/Leetcode/tree/master/0733-flood-fill) |
 | [0743-network-delay-time](https://github.com/kashishbishnoi23/Leetcode/tree/master/0743-network-delay-time) |
 | [0773-sliding-puzzle](https://github.com/kashishbishnoi23/Leetcode/tree/master/0773-sliding-puzzle) |
@@ -569,6 +574,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/kashishbishnoi23/Leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/kashishbishnoi23/Leetcode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/kashishbishnoi23/Leetcode/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/kashishbishnoi23/Leetcode/tree/master/0721-accounts-merge) |
 | [0778-swim-in-rising-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0778-swim-in-rising-water) |
 | [0794-swim-in-rising-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [1020-number-of-enclaves](https://github.com/kashishbishnoi23/Leetcode/tree/master/1020-number-of-enclaves) |
@@ -673,6 +679,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0556-next-greater-element-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0556-next-greater-element-iii) |
 | [0678-valid-parenthesis-string](https://github.com/kashishbishnoi23/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0692-top-k-frequent-words](https://github.com/kashishbishnoi23/Leetcode/tree/master/0692-top-k-frequent-words) |
+| [0721-accounts-merge](https://github.com/kashishbishnoi23/Leetcode/tree/master/0721-accounts-merge) |
 | [1119-robot-bounded-in-circle](https://github.com/kashishbishnoi23/Leetcode/tree/master/1119-robot-bounded-in-circle) |
 | [1260-day-of-the-year](https://github.com/kashishbishnoi23/Leetcode/tree/master/1260-day-of-the-year) |
 | [1397-search-suggestions-system](https://github.com/kashishbishnoi23/Leetcode/tree/master/1397-search-suggestions-system) |
