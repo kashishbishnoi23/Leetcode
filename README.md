@@ -79,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0816-design-hashset](https://github.com/kashishbishnoi23/Leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/kashishbishnoi23/Leetcode/tree/master/0817-design-hashmap) |
+| [0827-making-a-large-island](https://github.com/kashishbishnoi23/Leetcode/tree/master/0827-making-a-large-island) |
 | [0876-hand-of-straights](https://github.com/kashishbishnoi23/Leetcode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/kashishbishnoi23/Leetcode/tree/master/0890-lemonade-change) |
 | [0943-sum-of-subarray-minimums](https://github.com/kashishbishnoi23/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
@@ -467,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/kashishbishnoi23/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0794-swim-in-rising-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0797-all-paths-from-source-to-target](https://github.com/kashishbishnoi23/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
+| [0827-making-a-large-island](https://github.com/kashishbishnoi23/Leetcode/tree/master/0827-making-a-large-island) |
 | [0975-range-sum-of-bst](https://github.com/kashishbishnoi23/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [1020-number-of-enclaves](https://github.com/kashishbishnoi23/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -513,6 +515,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/kashishbishnoi23/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0794-swim-in-rising-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0797-all-paths-from-source-to-target](https://github.com/kashishbishnoi23/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
+| [0827-making-a-large-island](https://github.com/kashishbishnoi23/Leetcode/tree/master/0827-making-a-large-island) |
 | [1020-number-of-enclaves](https://github.com/kashishbishnoi23/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/kashishbishnoi23/Leetcode/tree/master/1036-rotting-oranges) |
@@ -578,6 +581,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/kashishbishnoi23/Leetcode/tree/master/0721-accounts-merge) |
 | [0778-swim-in-rising-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0778-swim-in-rising-water) |
 | [0794-swim-in-rising-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0794-swim-in-rising-water) |
+| [0827-making-a-large-island](https://github.com/kashishbishnoi23/Leetcode/tree/master/0827-making-a-large-island) |
 | [0990-satisfiability-of-equality-equations](https://github.com/kashishbishnoi23/Leetcode/tree/master/0990-satisfiability-of-equality-equations) |
 | [1020-number-of-enclaves](https://github.com/kashishbishnoi23/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1254-number-of-closed-islands](https://github.com/kashishbishnoi23/Leetcode/tree/master/1254-number-of-closed-islands) |
@@ -633,6 +637,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0773-sliding-puzzle](https://github.com/kashishbishnoi23/Leetcode/tree/master/0773-sliding-puzzle) |
 | [0778-swim-in-rising-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0778-swim-in-rising-water) |
 | [0794-swim-in-rising-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0794-swim-in-rising-water) |
+| [0827-making-a-large-island](https://github.com/kashishbishnoi23/Leetcode/tree/master/0827-making-a-large-island) |
 | [1020-number-of-enclaves](https://github.com/kashishbishnoi23/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1036-rotting-oranges](https://github.com/kashishbishnoi23/Leetcode/tree/master/1036-rotting-oranges) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/1091-shortest-path-in-binary-matrix) |
