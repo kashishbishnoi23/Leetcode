@@ -1,0 +1,2 @@
+# Write your MySQL query statement below
+select customer_id from (select customer_id, product_key from Customer group by customer_id,product_key) t1 group by customer_id having COUNT(*) = (select COUNT(*) from Product);
