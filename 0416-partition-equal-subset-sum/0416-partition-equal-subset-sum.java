@@ -1,46 +1,47 @@
 class Solution {
-    private boolean helper(int[] nums, int target, int index, int [][] dp){
 
-        if (index == -1) return false;
-        if (dp[index][target] == 1){
-            return true;
+    private int recursion(int[] nums, int index, int target, int[][] dp){
+        // pick:
+        if(index >= nums.length){
+            if (target == 0) return 1;
+            return 0;
         }
+        if (target < 0) return 0;
 
-        if (dp[index][target] == 2) return false;
-        
-        if (nums[index] == target) return true;
+        if (dp[index][target] != -1) return dp[index][target];
 
-        if (nums[index] > target){
-            boolean ans = helper(nums, target, index-1, dp);
-            if (ans == true){
-                dp[index][target] = 1;
-            } else {
-                dp[index][target] = 2;
-            }
-            return ans;
-        }
+        int pick = recursion(nums, index+1, target-nums[index], dp);
 
-        boolean temp =  helper(nums, target-nums[index], index-1, dp) || helper(nums, target, index-1, dp);
-        if (temp == true){
-            dp[index][target] = 1;
+
+        // not pick:
+        int notpick = recursion(nums, index+1, target, dp);
+
+        // return pick + notpick;
+        int ans = 0;
+        if (pick == 0 && notpick == 0){
+            ans =  0;
         } else {
-            dp[index][target] = 2;
+            ans = 1;
         }
 
-        return temp;
+        return dp[index][target] = ans;
+
     }
+
     public boolean canPartition(int[] nums) {
-        int n = nums.length;
-        int sum = 0;
+        int total = 0;
         for (int num : nums){
-            sum += num;
+            total += num;
         }
-        if (sum % 2 == 1) return  false;
-        int target = sum/2;
-        int[] [] dp =  new int [n][target+1];
+        if (total % 2 == 1) return false;
+        int n = nums.length;
+        int target = total/2;
+        int[][] dp = new int[n][target+1];
 
-        return helper(nums, target, n-1, dp);
+        for (int i = 0; i < n; i++){
+            Arrays.fill(dp[i], -1);
+        }
 
-
+        return recursion(nums, 0, target, dp) == 1;
     }
 }
