@@ -15,8 +15,6 @@ class Solution {
             min = Math.min(min, curr + recursion(grid, row+1, i, dp));
         }
 
-        // System.out.println(row + "  " + col + "  " + min);
-
 
 
         return dp[row][col] = min;
@@ -35,7 +33,7 @@ class Solution {
         for (int i = 0; i < n; i++){
             min = Math.min(min, recursion(grid, 0, i, dp));
         }
-        // return recursion(grid, 0, 0);
+
         return min;
     }
 }
