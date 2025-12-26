@@ -31,10 +31,36 @@ class Solution {
     }
     public int minimumTotal(List<List<Integer>> triangle) {
         int n = triangle.size();
-        int[][] dp = new int[n][n];
-        for (int i = 0; i < n; i++){
-            Arrays.fill(dp[i], Integer.MAX_VALUE);
+        // int[][] dp = new int[n][n];
+        // for (int i = 0; i < n; i++){
+        //     Arrays.fill(dp[i], Integer.MAX_VALUE);
+        // }
+        // return recursion(0, 0, triangle, dp);
+
+        int[] dp = new int[n];
+
+        int[] next = new int[n];
+        
+        for (int i = 0; i < triangle.get(n-1).size(); i++){
+            next[i] = triangle.get(n-1).get(i);
         }
-        return recursion(0, 0, triangle, dp);
+
+
+        for (int i = n-2; i >= 0; i--){
+            int size = triangle.get(i).size();
+            int[] curr = new int[size];
+
+            for (int j = 0; j < size; j++){
+                curr[j] = triangle.get(i).get(j) + Math.min(next[j], next[j+1]);
+            }
+
+            next = curr;
+        }
+
+        return next[0];
+
+
+
+
     }
 }
