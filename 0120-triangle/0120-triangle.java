@@ -1,63 +1,40 @@
 class Solution {
+    private int recursion(int row, int col, List<List<Integer>>triangle, int[][] dp){
+        int n = triangle.size();
+        
+        if (row >= n ) return Integer.MAX_VALUE;
+        int m = triangle.get(row).size();
+        if (col >= m) return Integer.MAX_VALUE;
+        int curr = triangle.get(row).get(col);
 
-    private int recursive(List<List<Integer>> triangle, int row, int col, int[][] dp){
+        if (row == n-1) return curr;
 
-        if (row == triangle.size()) return 0;
-        if (dp[row][col] != Integer.MIN_VALUE) return dp[row][col];
+        if (dp[row][col] != Integer.MAX_VALUE) return dp[row][col];
 
-        // go to i:
-        int first = triangle.get(row).get(col) + recursive(triangle, row+1, col, dp);
+        // take jth of next:
+        int first = Integer.MAX_VALUE;
 
-        // go to i+1
-        int second = triangle.get(row).get(col) + recursive(triangle, row+1, col+1, dp);
+        int next1 = recursion(row+1, col, triangle, dp);
+        if (next1 != Integer.MAX_VALUE){
+            first = curr + next1;
+        }
 
-        return dp[row][col] =  Math.min(first, second);
+        // take j+1 th of next:
+        int second = Integer.MAX_VALUE;
+        int next2 = recursion(row+1, col+1, triangle, dp);
 
+        if (next2 != Integer.MAX_VALUE){
+            second = curr + next2;
+        }
+
+        return dp[row][col] = Math.min(first, second);
     }
     public int minimumTotal(List<List<Integer>> triangle) {
         int n = triangle.size();
-        if (n == 1) return triangle.get(0).get(0);
-
-        int m = triangle.get(n-1).size();
-        int [][] dp = new int [n][m];
+        int[][] dp = new int[n][n];
         for (int i = 0; i < n; i++){
             Arrays.fill(dp[i], Integer.MAX_VALUE);
         }
-        // return recursive(triangle, 0, 0, dp);
-
-        for (int i = 0; i < m; i++){
-           dp[n-1][i] = triangle.get(n-1).get(i);
-        }
-
-        for (int j = n-2; j >= 0; j--){
-            for (int i = 0; i < triangle.get(j).size(); i++){
-                int first = dp[j+1][i];
-
-                int second = dp[j+1][i+1];
-                // System.out.println("first = " + first);
-                // System.out.println("second = " + second);
-
-                // System.out.println(Math.min(first, second));
-
-                dp[j][i] = triangle.get(j).get(i) + Math.min(first, second);
-            }
-
-            // System.out.println("col = " + j);
-
-            // for (int ele : dp[j]){
-            //     System.out.print(ele + " ");
-            // }
-            // System.out.println();
-        }
-
-        int ans = Integer.MAX_VALUE;
-        for (int  ele : dp[0]){
-            // System.out.println(ele);
-            ans = Math.min(ans, ele);
-        }
-
-        return ans;
-
-
+        return recursion(0, 0, triangle, dp);
     }
 }
