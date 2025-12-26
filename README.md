@@ -86,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0827-making-a-large-island](https://github.com/kashishbishnoi23/Leetcode/tree/master/0827-making-a-large-island) |
 | [0876-hand-of-straights](https://github.com/kashishbishnoi23/Leetcode/tree/master/0876-hand-of-straights) |
 | [0890-lemonade-change](https://github.com/kashishbishnoi23/Leetcode/tree/master/0890-lemonade-change) |
+| [0931-minimum-falling-path-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/0931-minimum-falling-path-sum) |
 | [0943-sum-of-subarray-minimums](https://github.com/kashishbishnoi23/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [0968-beautiful-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0968-beautiful-array) |
 | [0980-unique-paths-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0980-unique-paths-iii) |
@@ -579,6 +580,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0740-delete-and-earn](https://github.com/kashishbishnoi23/Leetcode/tree/master/0740-delete-and-earn) |
 | [0773-sliding-puzzle](https://github.com/kashishbishnoi23/Leetcode/tree/master/0773-sliding-puzzle) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kashishbishnoi23/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0931-minimum-falling-path-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/0931-minimum-falling-path-sum) |
 | [0943-sum-of-subarray-minimums](https://github.com/kashishbishnoi23/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [1162-as-far-from-land-as-possible](https://github.com/kashishbishnoi23/Leetcode/tree/master/1162-as-far-from-land-as-possible) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/kashishbishnoi23/Leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -667,6 +669,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0778-swim-in-rising-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0778-swim-in-rising-water) |
 | [0794-swim-in-rising-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0827-making-a-large-island](https://github.com/kashishbishnoi23/Leetcode/tree/master/0827-making-a-large-island) |
+| [0931-minimum-falling-path-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/0931-minimum-falling-path-sum) |
 | [0980-unique-paths-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0980-unique-paths-iii) |
 | [1020-number-of-enclaves](https://github.com/kashishbishnoi23/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1036-rotting-oranges](https://github.com/kashishbishnoi23/Leetcode/tree/master/1036-rotting-oranges) |
