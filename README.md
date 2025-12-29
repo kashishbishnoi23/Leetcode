@@ -110,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1845-largest-submatrix-with-rearrangements](https://github.com/kashishbishnoi23/Leetcode/tree/master/1845-largest-submatrix-with-rearrangements) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/kashishbishnoi23/Leetcode/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/kashishbishnoi23/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/kashishbishnoi23/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2054-two-best-non-overlapping-events](https://github.com/kashishbishnoi23/Leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/kashishbishnoi23/Leetcode/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 | [2169-simple-bank-system](https://github.com/kashishbishnoi23/Leetcode/tree/master/2169-simple-bank-system) |
@@ -330,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1397-search-suggestions-system](https://github.com/kashishbishnoi23/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1631-path-with-minimum-effort](https://github.com/kashishbishnoi23/Leetcode/tree/master/1631-path-with-minimum-effort) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/kashishbishnoi23/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2054-two-best-non-overlapping-events](https://github.com/kashishbishnoi23/Leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2560-house-robber-iv](https://github.com/kashishbishnoi23/Leetcode/tree/master/2560-house-robber-iv) |
@@ -400,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/kashishbishnoi23/Leetcode/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0556-next-greater-element-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0556-next-greater-element-iii) |
 | [0611-valid-triangle-number](https://github.com/kashishbishnoi23/Leetcode/tree/master/0611-valid-triangle-number) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/kashishbishnoi23/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
 ## Greedy
 |  |
@@ -592,6 +595,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/kashishbishnoi23/Leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/kashishbishnoi23/Leetcode/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1494-parallel-courses-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1494-parallel-courses-ii) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/kashishbishnoi23/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2054-two-best-non-overlapping-events](https://github.com/kashishbishnoi23/Leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/kashishbishnoi23/Leetcode/tree/master/2328-number-of-increasing-paths-in-a-grid) |
 | [2400-number-of-ways-to-reach-a-position-after-exactly-k-steps](https://github.com/kashishbishnoi23/Leetcode/tree/master/2400-number-of-ways-to-reach-a-position-after-exactly-k-steps) |
@@ -796,6 +800,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1494-parallel-courses-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1494-parallel-courses-ii) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/kashishbishnoi23/Leetcode/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/kashishbishnoi23/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/kashishbishnoi23/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/kashishbishnoi23/Leetcode/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Sliding Window
@@ -980,8 +985,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1494-parallel-courses-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1494-parallel-courses-ii) |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/kashishbishnoi23/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 ## Eulerian Circuit
 |  |
 | ------- |
 | [0332-reconstruct-itinerary](https://github.com/kashishbishnoi23/Leetcode/tree/master/0332-reconstruct-itinerary) |
+## Ordered Set
+|  |
+| ------- |
+| [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/kashishbishnoi23/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 <!---LeetCode Topics End-->
