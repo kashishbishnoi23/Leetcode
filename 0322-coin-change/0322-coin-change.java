@@ -80,10 +80,6 @@ class Solution {
             prev = curr;
     }
 
-        for (int am : prev){
-            System.out.println(am);
-        }
-
         return prev[amount] == Integer.MAX_VALUE ? -1 : prev[amount];
        
 
