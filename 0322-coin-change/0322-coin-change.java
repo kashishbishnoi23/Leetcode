@@ -1,67 +1,38 @@
 class Solution {
 
-    private int recursion(int[] coins, int amount, int index, int target, int[][] dp){
-        if (target == amount) return 0; 
+    private int recursion(int[] coins, int indx, int amount, int[][] dp){
 
-        if (index == coins.length || target > amount ) return Integer.MAX_VALUE;
-        
-        if (dp[index][target] != -1) return dp[index][target];
+        if (amount == 0) return 0;
+         
+        if (indx == coins.length || amount < 0) return Integer.MAX_VALUE;
+        // make this amount:
 
-       int pick = Integer.MAX_VALUE;
-    if (coins[index] <= amount && target + coins[index] <= amount) {
-        int next = recursion(coins, amount, index, target + coins[index], dp);
-        if (next != Integer.MAX_VALUE) {  // avoid overflow
-            pick = 1 + next;
+        if (dp[indx][amount] != -1) return dp[indx][amount];
+        // pick -> if I pick this coin -> I am adding 1 to the ans
+        // int pick = 1 + recursion(coins, indx+1, amount-coins[indx]);
+        int pick = Integer.MAX_VALUE;
+        int next = recursion(coins, indx, amount-coins[indx], dp);
+
+        if (next != Integer.MAX_VALUE){
+            pick  = 1 + next;
         }
-    }
 
-        int nonpick = recursion(coins, amount, index+1, target, dp);
+        int notpick = recursion(coins, indx+1, amount, dp);
 
-        return dp[index][target] =  Math.min(pick, nonpick);
-
-
+        return dp[indx][amount] =  Math.min(pick, notpick);
+        
     }
     public int coinChange(int[] coins, int amount) {
-        if (amount == 0) return 0;
+        // return recursion(coins, 0, amount) == Integer.MAX_VALUE
         int n = coins.length;
         int[][] dp = new int[n][amount+1];
         for (int i = 0; i < n; i++){
             Arrays.fill(dp[i], -1);
         }
-        int ans = recursion(coins, amount, 0, 0, dp);
+        int ans = recursion(coins, 0, amount, dp);
 
-        if (ans == Integer.MAX_VALUE) return -1;
-        return ans;
-        // Arrays.sort(coins);
 
-        // // reverse coins:
-        // int start = 0;
-        // int end = n-1;
 
-        // while(start < end){
-        //     int temp = coins[start];
-        //     coins[start] = coins[end];
-        //     coins[end] = temp;
-        //     start++;
-        //     end--;
-        // }
-
-        // int target = 0;
-        // int i = 0;
-        // int ans = 0;
-
-        // while(target < amount && i < n){
-        //     int curr = coins[i];
-
-        //     while(target + curr <= amount){
-        //         target += curr;
-        //         ans ++;
-        //     }
-        //     i++;
-
-        // }
-
-        // if (target < amount) return -1;
-        // return ans;
+        return ans == Integer.MAX_VALUE ? -1 : ans;
     }
 }
