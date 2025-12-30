@@ -28,9 +28,27 @@ class Solution {
 
         List<List<Integer>> ans = new ArrayList<>();
 
-        List<Integer> temp = new ArrayList<>();
+        // List<Integer> temp = new ArrayList<>();
 
-        recursion(ans, temp, nums, 0);
+        // recursion(ans, temp, nums, 0);
+
+
+        // pick, not pick ka ek aur tareeka , we have length n -> 2^n combinations -> yani 2^n total subsets banenge
+
+        // run loop for each subset:
+        int n = nums.length;
+        for (int i = 0; i < (1 << n); i++){
+            List<Integer> temp = new ArrayList<>();
+
+            for (int j = 0; j < n; j++){
+                 // j is the number of left shifts:
+                 if (((1 << j) & i ) != 0){
+                    temp.add(nums[j]);
+                 }
+            }
+
+            ans.add(temp);
+        }
 
         return ans;
     }
