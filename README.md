@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/0074-search-a-2d-matrix) |
+| [0078-subsets](https://github.com/kashishbishnoi23/Leetcode/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/kashishbishnoi23/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/kashishbishnoi23/Leetcode/tree/master/0085-maximal-rectangle) |
@@ -792,6 +793,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0047-permutations-ii) |
 | [0051-n-queens](https://github.com/kashishbishnoi23/Leetcode/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0052-n-queens-ii) |
+| [0078-subsets](https://github.com/kashishbishnoi23/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0090-subsets-ii) |
 | [0494-target-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/0494-target-sum) |
 | [0773-sliding-puzzle](https://github.com/kashishbishnoi23/Leetcode/tree/master/0773-sliding-puzzle) |
@@ -801,6 +803,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/kashishbishnoi23/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/kashishbishnoi23/Leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0137-single-number-ii) |
