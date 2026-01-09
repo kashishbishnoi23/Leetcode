@@ -171,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0740-delete-and-earn](https://github.com/kashishbishnoi23/Leetcode/tree/master/0740-delete-and-earn) |
 | [0816-design-hashset](https://github.com/kashishbishnoi23/Leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/kashishbishnoi23/Leetcode/tree/master/0817-design-hashmap) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/kashishbishnoi23/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0876-hand-of-straights](https://github.com/kashishbishnoi23/Leetcode/tree/master/0876-hand-of-straights) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/kashishbishnoi23/Leetcode/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/kashishbishnoi23/Leetcode/tree/master/1015-smallest-integer-divisible-by-k) |
@@ -297,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0337-house-robber-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0337-house-robber-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/kashishbishnoi23/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/kashishbishnoi23/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0975-range-sum-of-bst](https://github.com/kashishbishnoi23/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/kashishbishnoi23/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
@@ -362,6 +364,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0337-house-robber-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0337-house-robber-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/kashishbishnoi23/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/kashishbishnoi23/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0975-range-sum-of-bst](https://github.com/kashishbishnoi23/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/kashishbishnoi23/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
@@ -500,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0797-all-paths-from-source-to-target](https://github.com/kashishbishnoi23/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
 | [0827-making-a-large-island](https://github.com/kashishbishnoi23/Leetcode/tree/master/0827-making-a-large-island) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/kashishbishnoi23/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/kashishbishnoi23/Leetcode/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0975-range-sum-of-bst](https://github.com/kashishbishnoi23/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [1020-number-of-enclaves](https://github.com/kashishbishnoi23/Leetcode/tree/master/1020-number-of-enclaves) |
@@ -548,6 +552,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0794-swim-in-rising-water) |
 | [0797-all-paths-from-source-to-target](https://github.com/kashishbishnoi23/Leetcode/tree/master/0797-all-paths-from-source-to-target) |
 | [0827-making-a-large-island](https://github.com/kashishbishnoi23/Leetcode/tree/master/0827-making-a-large-island) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/kashishbishnoi23/Leetcode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1020-number-of-enclaves](https://github.com/kashishbishnoi23/Leetcode/tree/master/1020-number-of-enclaves) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/kashishbishnoi23/Leetcode/tree/master/1036-rotting-oranges) |
