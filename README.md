@@ -602,6 +602,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/kashishbishnoi23/Leetcode/tree/master/0678-valid-parenthesis-string) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/kashishbishnoi23/Leetcode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0740-delete-and-earn](https://github.com/kashishbishnoi23/Leetcode/tree/master/0740-delete-and-earn) |
 | [0773-sliding-puzzle](https://github.com/kashishbishnoi23/Leetcode/tree/master/0773-sliding-puzzle) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/kashishbishnoi23/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -757,6 +758,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0556-next-greater-element-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0556-next-greater-element-iii) |
 | [0678-valid-parenthesis-string](https://github.com/kashishbishnoi23/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0692-top-k-frequent-words](https://github.com/kashishbishnoi23/Leetcode/tree/master/0692-top-k-frequent-words) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/kashishbishnoi23/Leetcode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0721-accounts-merge](https://github.com/kashishbishnoi23/Leetcode/tree/master/0721-accounts-merge) |
 | [0990-satisfiability-of-equality-equations](https://github.com/kashishbishnoi23/Leetcode/tree/master/0990-satisfiability-of-equality-equations) |
 | [1092-shortest-common-supersequence](https://github.com/kashishbishnoi23/Leetcode/tree/master/1092-shortest-common-supersequence) |
