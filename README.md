@@ -581,6 +581,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/kashishbishnoi23/Leetcode/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/kashishbishnoi23/Leetcode/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/kashishbishnoi23/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0115-distinct-subsequences](https://github.com/kashishbishnoi23/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/kashishbishnoi23/Leetcode/tree/master/0120-triangle) |
@@ -743,6 +744,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/kashishbishnoi23/Leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0043-multiply-strings](https://github.com/kashishbishnoi23/Leetcode/tree/master/0043-multiply-strings) |
 | [0049-group-anagrams](https://github.com/kashishbishnoi23/Leetcode/tree/master/0049-group-anagrams) |
+| [0072-edit-distance](https://github.com/kashishbishnoi23/Leetcode/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/kashishbishnoi23/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/kashishbishnoi23/Leetcode/tree/master/0127-word-ladder) |
 | [0242-valid-anagram](https://github.com/kashishbishnoi23/Leetcode/tree/master/0242-valid-anagram) |
