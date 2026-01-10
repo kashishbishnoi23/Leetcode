@@ -582,6 +582,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/kashishbishnoi23/Leetcode/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/kashishbishnoi23/Leetcode/tree/master/0085-maximal-rectangle) |
+| [0115-distinct-subsequences](https://github.com/kashishbishnoi23/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/kashishbishnoi23/Leetcode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kashishbishnoi23/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -742,6 +743,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0032-longest-valid-parentheses](https://github.com/kashishbishnoi23/Leetcode/tree/master/0032-longest-valid-parentheses) |
 | [0043-multiply-strings](https://github.com/kashishbishnoi23/Leetcode/tree/master/0043-multiply-strings) |
 | [0049-group-anagrams](https://github.com/kashishbishnoi23/Leetcode/tree/master/0049-group-anagrams) |
+| [0115-distinct-subsequences](https://github.com/kashishbishnoi23/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/kashishbishnoi23/Leetcode/tree/master/0127-word-ladder) |
 | [0242-valid-anagram](https://github.com/kashishbishnoi23/Leetcode/tree/master/0242-valid-anagram) |
 | [0387-first-unique-character-in-a-string](https://github.com/kashishbishnoi23/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
