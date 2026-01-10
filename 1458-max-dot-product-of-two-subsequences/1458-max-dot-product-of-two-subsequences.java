@@ -25,20 +25,44 @@ class Solution {
         int n = nums1.length;
         int m = nums2.length;
         int[][] dp = new int[n][m];
-        for (int i = 0; i < n; i++){
-            Arrays.fill(dp[i], Integer.MAX_VALUE);
+        // for (int i = 0; i < n; i++){
+        //     Arrays.fill(dp[i], Integer.MAX_VALUE);
+        // }
+
+        // int ans = recursive(nums1, nums2, 0, 0, dp);
+
+       
+
+        dp[n-1][m-1] = nums1[n-1]*nums2[m-1]; // last cell
+
+
+        // last row:
+        for (int j = m-2; j >= 0; j--){
+            dp[n-1][j] = Math.max(nums1[n-1]*nums2[j], dp[n-1][j+1]);
         }
 
-        int ans = recursive(nums1, nums2, 0, 0, dp);
+        // last col:
+        for (int i = n-2; i >= 0; i--){
+            dp[i][m-1] = Math.max(nums1[i]*nums2[m-1], dp[i+1][m-1]);
+        }
 
-        
-        for (int i = 0; i < n; i++){
-            for (int j = 0; j < m; j++){
-                System.out.print(dp[i][j] + " ");
+        for (int i = n-1; i >= 0; i--){
+            for (int j = m-2; j >= 0; j--){
+                // take:
+                int take = nums1[i] * nums2[j] 
+           + Math.max(0, (i+1 < n && j+1 < m) ? dp[i+1][j+1] : Integer.MIN_VALUE);
+
+
+                int nottake = Integer.MIN_VALUE;
+
+                int first = (i + 1 < n ) ? dp[i+1][j] : Integer.MIN_VALUE;
+                int second = (j + 1 < m) ? dp[i][j+1] : Integer.MIN_VALUE;
+
+                nottake = Math.max(first, second);
+                dp[i][j] = Math.max(take, nottake); 
             }
-            System.out.println();
         }
 
-        return ans;
+        return dp[0][0];
     }
 }
