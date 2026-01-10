@@ -1,41 +1,42 @@
 class Solution {
 
-    private int recursive(int[] prices, int index, boolean canBuy, boolean canSell, int [][][] dp){
+    private int recursion(int[] prices, int indx, int state, int[][] dp){
 
-        if (index == prices.length) return 0;
-        int row = (canBuy == true) ? 1 : 0;
-        int col = (canSell == true) ? 1 : 0;
-
-        if (dp[index][row][col] != -1) return dp[index][row][col];
-        
-        int buy, notbuy, sell, notsell;
-        buy = notbuy = sell = notsell = 0;
-        // buy
-        if (canBuy == true){
-           buy = -prices[index] + recursive(prices, index+1, false, true, dp);
-           notbuy = recursive(prices, index+1, true, false, dp);
+        // base case:
+        if (indx == prices.length){
+            if (state == 1) return Integer.MIN_VALUE;
+            return 0;
         }
 
-        // sell
-        if (canSell == true){
-            sell = prices[index] + recursive(prices, index+1, true, false, dp);
+        if (dp[indx][state] != -1) return dp[indx][state];
 
-            notsell = recursive(prices, index+1, false, true, dp);
+        if (state == 0){
+            int buy = Integer.MIN_VALUE;
+            int next =  recursion(prices, indx+1, 1, dp);
+            int notbuy = recursion(prices, indx+1, 0, dp);
+            if (next != Integer.MIN_VALUE){
+                buy = -prices[indx] + next;
+            }
+            return dp[indx][state] =  Math.max(buy, notbuy);
+        } else {
+            // u can only sell:
+            int sell = prices[indx] + recursion(prices, indx+1, 0, dp);
+            int notsell = recursion(prices, indx+1, 1, dp);
+
+            return dp[indx][state] =  Math.max(sell, notsell);
         }
 
-        return dp[index][row][col] =  Math.max(buy, Math.max(notbuy, Math.max(sell, notsell)));
+        // return 0;
+
+
     }
-
     public int maxProfit(int[] prices) {
         int n = prices.length;
-        int [][][] dp = new int[n][4][2];
+        int[][] dp = new int[n][2];
 
         for (int i = 0; i < n; i++){
-            for (int j = 0; j < 4; j++){
-                Arrays.fill(dp[i][j], -1);
-            }
+            Arrays.fill(dp[i], -1);
         }
-         
-        return recursive(prices, 0, true, false, dp);
+        return recursion(prices, 0, 0, dp); // if state is 0 , I can buy , if state is 1 , I can only sell
     }
 }
