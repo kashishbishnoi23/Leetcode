@@ -605,6 +605,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/kashishbishnoi23/Leetcode/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0931-minimum-falling-path-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/0931-minimum-falling-path-sum) |
 | [0943-sum-of-subarray-minimums](https://github.com/kashishbishnoi23/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
+| [1143-longest-common-subsequence](https://github.com/kashishbishnoi23/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1162-as-far-from-land-as-possible](https://github.com/kashishbishnoi23/Leetcode/tree/master/1162-as-far-from-land-as-possible) |
 | [1289-minimum-falling-path-sum-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1289-minimum-falling-path-sum-ii) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/kashishbishnoi23/Leetcode/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
@@ -753,6 +754,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/kashishbishnoi23/Leetcode/tree/master/0721-accounts-merge) |
 | [0990-satisfiability-of-equality-equations](https://github.com/kashishbishnoi23/Leetcode/tree/master/0990-satisfiability-of-equality-equations) |
 | [1119-robot-bounded-in-circle](https://github.com/kashishbishnoi23/Leetcode/tree/master/1119-robot-bounded-in-circle) |
+| [1143-longest-common-subsequence](https://github.com/kashishbishnoi23/Leetcode/tree/master/1143-longest-common-subsequence) |
 | [1260-day-of-the-year](https://github.com/kashishbishnoi23/Leetcode/tree/master/1260-day-of-the-year) |
 | [1397-search-suggestions-system](https://github.com/kashishbishnoi23/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/kashishbishnoi23/Leetcode/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
