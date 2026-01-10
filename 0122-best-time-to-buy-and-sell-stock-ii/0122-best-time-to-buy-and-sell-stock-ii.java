@@ -34,9 +34,30 @@ class Solution {
         int n = prices.length;
         int[][] dp = new int[n][2];
 
-        for (int i = 0; i < n; i++){
-            Arrays.fill(dp[i], -1);
+        // return recursion(prices, 0, 0, dp); // if state is 0 , I can buy , if state is 1 , I can only sell
+
+        dp[n-1][0] = 0; // last stock cannot be bought:
+        dp[n-1][1] = prices[n-1];
+        for (int i = n-2; i >= 0; i--){
+            for (int state = 0; state <= 1; state++){
+
+                int profit = 0;
+                if (state == 0){
+                    // I can only buy:
+                    int buy = -prices[i] + dp[i+1][1];
+                    int notbuy = dp[i+1][0];
+                    profit = Math.max(buy, notbuy);
+                } else {
+                    int sell = prices[i] + dp[i+1][0];
+                    int notsell = dp[i+1][1];
+                    profit = Math.max(sell, notsell);
+                }
+                dp[i][state] = profit;
+            }
         }
-        return recursion(prices, 0, 0, dp); // if state is 0 , I can buy , if state is 1 , I can only sell
+
+        return dp[0][0];
+
+
     }
 }
