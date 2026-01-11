@@ -1,61 +1,24 @@
 class Solution {
 
-    // private void recursive(int index, int n, List<Integer> temp, List<List<Integer>> ans, int[] nums){
+    private void recursive(int[] nums, int indx, List<List<Integer>> ans, List<Integer> temp){
 
-    //     if (index == n){
-    //         // ans.add(temp);
-    //         return;
-    //     }
+        ans.add(new ArrayList<>(temp));
         
-    //     for (int i = index; i < n; i++){
-    //         if (i > index && nums[i] == nums[i-1]) continue;
-    //         temp.add(nums[i]);
-    //         ans.add(new ArrayList<>(temp));
-    //         recursive(i+1, n, temp, ans, nums);
-    //         temp.remove(temp.size()-1); 
-    //     }
-    // }
-    
+        for (int i = indx; i < nums.length; i++){
+            if (i > indx && nums[i] == nums[i-1]) continue;
+            temp.add(nums[i]);
+            recursive(nums, i+1, ans, temp);
 
-    private void recursive(int index, int[] nums, Set<List<Integer>> st, ArrayList<Integer> temp){
-        int n = nums.length;
-        if (index == n){
-            Collections.sort(temp);
-            st.add(new ArrayList<>(temp));
-            return;
+            temp.remove(temp.size()-1);
         }
-
-        // pick current element:
-        temp.add(nums[index]);
-        recursive(index+1, nums, st, temp);
-
-
-        // do not pick current element:
-        temp.remove(temp.size()-1);
-        recursive(index+1, nums, st, temp);
     }
-
-    
     public List<List<Integer>> subsetsWithDup(int[] nums) {
-        
-        // List<List<Integer>> ans = new ArrayList<>();
-        // Arrays.sort(nums); // sorting is important bruhh!!
-        // int n = nums.length;
-        // List<Integer> temp = new ArrayList<>();
-        // recursive(0, n, temp, ans, nums);
-        // ans.add(new ArrayList<>());
-        // return ans;
-     
-        Arrays.sort(nums);
-        HashSet<List<Integer>> st = new HashSet<>();
-        ArrayList<Integer> temp = new ArrayList<>();
-        recursive(0, nums, st, temp);
-
         List<List<Integer>> ans = new ArrayList<>();
+        List<Integer> temp = new ArrayList<>();
+        Arrays.sort(nums);
 
-        for (List<Integer> t : st){
-            ans.add(t);
-        }
+        recursive(nums, 0, ans, temp);
+
         return ans;
     }
 }
