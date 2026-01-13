@@ -596,6 +596,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0131-palindrome-partitioning](https://github.com/kashishbishnoi23/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0152-maximum-product-subarray](https://github.com/kashishbishnoi23/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/kashishbishnoi23/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0213-house-robber-ii) |
@@ -759,6 +760,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0072-edit-distance](https://github.com/kashishbishnoi23/Leetcode/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/kashishbishnoi23/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/kashishbishnoi23/Leetcode/tree/master/0127-word-ladder) |
+| [0131-palindrome-partitioning](https://github.com/kashishbishnoi23/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0242-valid-anagram](https://github.com/kashishbishnoi23/Leetcode/tree/master/0242-valid-anagram) |
 | [0387-first-unique-character-in-a-string](https://github.com/kashishbishnoi23/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0399-evaluate-division](https://github.com/kashishbishnoi23/Leetcode/tree/master/0399-evaluate-division) |
@@ -829,6 +831,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0052-n-queens-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0052-n-queens-ii) |
 | [0078-subsets](https://github.com/kashishbishnoi23/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/kashishbishnoi23/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0494-target-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/0494-target-sum) |
 | [0773-sliding-puzzle](https://github.com/kashishbishnoi23/Leetcode/tree/master/0773-sliding-puzzle) |
