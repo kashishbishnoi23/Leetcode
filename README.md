@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/kashishbishnoi23/Leetcode/tree/master/0130-surrounded-regions) |
 | [0136-single-number](https://github.com/kashishbishnoi23/Leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0137-single-number-ii) |
+| [0139-word-break](https://github.com/kashishbishnoi23/Leetcode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/kashishbishnoi23/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/kashishbishnoi23/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0213-house-robber-ii) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/kashishbishnoi23/Leetcode/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/kashishbishnoi23/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/kashishbishnoi23/Leetcode/tree/master/0133-clone-graph) |
+| [0139-word-break](https://github.com/kashishbishnoi23/Leetcode/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/kashishbishnoi23/Leetcode/tree/master/0146-lru-cache) |
 | [0217-contains-duplicate](https://github.com/kashishbishnoi23/Leetcode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0219-contains-duplicate-ii) |
@@ -599,6 +601,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/kashishbishnoi23/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/kashishbishnoi23/Leetcode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/kashishbishnoi23/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/kashishbishnoi23/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0213-house-robber-ii) |
@@ -765,6 +768,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/kashishbishnoi23/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/kashishbishnoi23/Leetcode/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/kashishbishnoi23/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/kashishbishnoi23/Leetcode/tree/master/0139-word-break) |
 | [0242-valid-anagram](https://github.com/kashishbishnoi23/Leetcode/tree/master/0242-valid-anagram) |
 | [0387-first-unique-character-in-a-string](https://github.com/kashishbishnoi23/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0399-evaluate-division](https://github.com/kashishbishnoi23/Leetcode/tree/master/0399-evaluate-division) |
@@ -941,6 +945,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/kashishbishnoi23/Leetcode/tree/master/0014-longest-common-prefix) |
+| [0139-word-break](https://github.com/kashishbishnoi23/Leetcode/tree/master/0139-word-break) |
 | [0692-top-k-frequent-words](https://github.com/kashishbishnoi23/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [1397-search-suggestions-system](https://github.com/kashishbishnoi23/Leetcode/tree/master/1397-search-suggestions-system) |
 | [3193-maximum-strong-pair-xor-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
@@ -948,6 +953,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/kashishbishnoi23/Leetcode/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/kashishbishnoi23/Leetcode/tree/master/0139-word-break) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0773-sliding-puzzle](https://github.com/kashishbishnoi23/Leetcode/tree/master/0773-sliding-puzzle) |
 | [2328-number-of-increasing-paths-in-a-grid](https://github.com/kashishbishnoi23/Leetcode/tree/master/2328-number-of-increasing-paths-in-a-grid) |
