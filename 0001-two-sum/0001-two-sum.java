@@ -1,38 +1,20 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int n = nums.length;
-        int left = 0;
-        int right = n-1;
-        // Arrays.sort(nums);
 
-        HashMap<Integer, Integer> hashing = new HashMap<>();
+        int[] ans = new int[2];
 
         for (int i = 0; i < n; i++){
-            hashing.put(nums[i], i);
-        }
-
-        for (int j = 0; j < n; j++){
-            int required = target-nums[j];
-            if (hashing.containsKey(required) && hashing.get(required) != j){
-                return new int []{j, hashing.get(required)};
+            int a = nums[i];
+            int req = target-a;
+            for (int j = i+1; j < n; j++){
+                if (nums[j] == req){
+                    ans[0] = i;
+                    ans[1] = j;
+                    return ans;
+                }
             }
         }
-
-        
-
-        // while(left < right){
-        //     int sum = nums[left] + nums[right];
-        //     if (sum == target){
-        //         return new int []{left, right};
-        //     } 
-
-        //     if (sum > target){
-        //         right--;
-        //     } else {
-        //         left++;
-        //     }
-        // }
-
-        return new int[]{-1, -1};  
+        return ans;
     }
 }
