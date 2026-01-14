@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0137-single-number-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0137-single-number-ii) |
 | [0139-word-break](https://github.com/kashishbishnoi23/Leetcode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/kashishbishnoi23/Leetcode/tree/master/0152-maximum-product-subarray) |
+| [0189-rotate-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/kashishbishnoi23/Leetcode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -412,6 +413,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/kashishbishnoi23/Leetcode/tree/master/0031-next-permutation) |
 | [0042-trapping-rain-water](https://github.com/kashishbishnoi23/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0088-merge-sorted-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0088-merge-sorted-array) |
+| [0189-rotate-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/kashishbishnoi23/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/kashishbishnoi23/Leetcode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/kashishbishnoi23/Leetcode/tree/master/0287-find-the-duplicate-number) |
@@ -802,6 +804,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/kashishbishnoi23/Leetcode/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/kashishbishnoi23/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/kashishbishnoi23/Leetcode/tree/master/0070-climbing-stairs) |
+| [0189-rotate-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0189-rotate-array) |
 | [0263-ugly-number](https://github.com/kashishbishnoi23/Leetcode/tree/master/0263-ugly-number) |
 | [0264-ugly-number-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0264-ugly-number-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/kashishbishnoi23/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
