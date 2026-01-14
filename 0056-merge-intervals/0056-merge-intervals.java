@@ -1,43 +1,39 @@
 class Solution {
-
-    private int[] overlap(int[] arr1, int[] arr2){
-         if (arr2[0] >= arr1[0] && arr2[0] <= arr1[1]){
-             return new int [] {arr1[0], Math.max(arr1[1], arr2[1])};
-         } else {
-            return new int []{-1, -1};
-         }
-    }
     public int[][] merge(int[][] intervals) {
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) ->
-        Integer.compare(a[0], b[0]));
+        int n = intervals.length;
+
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> Integer.compare(a[0], b[0]));
 
         for (int [] interval : intervals){
             pq.offer(interval);
         }
 
-        ArrayList<int[]> ans = new ArrayList<>();
+        ArrayList<int[]> list = new ArrayList<>();
 
         while(!pq.isEmpty()){
-            int [] current = pq.poll();
+            int[] top = pq.poll();
             if (pq.isEmpty()){
-                ans.add(current);
+                list.add(top);
                 break;
             }
-                int [] top = pq.peek();
-                int [] over = overlap(current, top);
 
-                if (over[0] == -1 && over[1] == -1){
-                    ans.add(current);
-                } else {
-                    pq.poll();
-                    pq.offer(over);
-                }
-            
+            int[] next = pq.poll();
+            if (next[0] <= top[1]){
+                int first = top[0];
+                int second = next[1] > top[1] ? next[1] : top[1];
+
+                pq.offer(new int[] {first, second});
+            } else {
+                list.add(top);
+                pq.offer(next);
+            }
         }
 
-        return ans.toArray(new int [ans.size()][]);
-
-
-
+        int[][] ans = new int[list.size()][2];
+        int indx = 0;
+        for (int[] i : list){
+            ans[indx++] = i;
+        }
+        return ans;
     }
 }
