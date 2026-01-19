@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/kashishbishnoi23/Leetcode/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/kashishbishnoi23/Leetcode/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/kashishbishnoi23/Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0303-range-sum-query-immutable](https://github.com/kashishbishnoi23/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0322-coin-change](https://github.com/kashishbishnoi23/Leetcode/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0347-top-k-frequent-elements](https://github.com/kashishbishnoi23/Leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -347,6 +348,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0225-implement-stack-using-queues](https://github.com/kashishbishnoi23/Leetcode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/kashishbishnoi23/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0295-find-median-from-data-stream](https://github.com/kashishbishnoi23/Leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0303-range-sum-query-immutable](https://github.com/kashishbishnoi23/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0355-design-twitter](https://github.com/kashishbishnoi23/Leetcode/tree/master/0355-design-twitter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/kashishbishnoi23/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0432-all-oone-data-structure](https://github.com/kashishbishnoi23/Leetcode/tree/master/0432-all-oone-data-structure) |
@@ -920,6 +922,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0303-range-sum-query-immutable](https://github.com/kashishbishnoi23/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0560-subarray-sum-equals-k](https://github.com/kashishbishnoi23/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/kashishbishnoi23/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [1895-largest-magic-square](https://github.com/kashishbishnoi23/Leetcode/tree/master/1895-largest-magic-square) |
