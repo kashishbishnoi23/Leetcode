@@ -486,6 +486,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1018-largest-perimeter-triangle](https://github.com/kashishbishnoi23/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/kashishbishnoi23/Leetcode/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1845-largest-submatrix-with-rearrangements](https://github.com/kashishbishnoi23/Leetcode/tree/master/1845-largest-submatrix-with-rearrangements) |
+| [1903-largest-odd-number-in-string](https://github.com/kashishbishnoi23/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2560-house-robber-iv](https://github.com/kashishbishnoi23/Leetcode/tree/master/2560-house-robber-iv) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/kashishbishnoi23/Leetcode/tree/master/3075-maximize-happiness-of-selected-children) |
@@ -839,6 +840,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/kashishbishnoi23/Leetcode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1397-search-suggestions-system](https://github.com/kashishbishnoi23/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/kashishbishnoi23/Leetcode/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
+| [1903-largest-odd-number-in-string](https://github.com/kashishbishnoi23/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/kashishbishnoi23/Leetcode/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/kashishbishnoi23/Leetcode/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
 | [2211-count-collisions-on-a-road](https://github.com/kashishbishnoi23/Leetcode/tree/master/2211-count-collisions-on-a-road) |
@@ -866,6 +868,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/kashishbishnoi23/Leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1523-count-odd-numbers-in-an-interval-range](https://github.com/kashishbishnoi23/Leetcode/tree/master/1523-count-odd-numbers-in-an-interval-range) |
 | [1642-water-bottles](https://github.com/kashishbishnoi23/Leetcode/tree/master/1642-water-bottles) |
+| [1903-largest-odd-number-in-string](https://github.com/kashishbishnoi23/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [1925-count-square-sum-triples](https://github.com/kashishbishnoi23/Leetcode/tree/master/1925-count-square-sum-triples) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/kashishbishnoi23/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/kashishbishnoi23/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
