@@ -3,15 +3,14 @@ class Solution {
 
         int n = num.length();
         if ((num.charAt(n-1)- '0') % 2 == 1) return num;
-        
-        // int first = -1;
+
         int last = -1;
-        for (int i = 0; i < num.length(); i++){
+        for (int i = num.length()-1; i >= 0; i--){
             
             int ch = num.charAt(i) - '0';
             if (ch % 2 == 1){
               last = i;
-
+              break;
             }
         }
 
