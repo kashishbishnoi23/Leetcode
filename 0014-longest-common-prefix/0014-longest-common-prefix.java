@@ -1,34 +1,22 @@
 class Solution {
     public String longestCommonPrefix(String[] strs) {
-        // Arrays.sort(strs);
-        // String first = strs[0];
-        // String last = strs[strs.length-1];
+        Arrays.sort(strs);
+        int n = strs.length-1;
 
-        // how many letters are same:
-        // StringBuilder sb = new StringBuilder();
-        // for (int i = 0; i < first.length(); i++){
-        //     char ch = first.charAt(i);
-        //     if (ch == last.charAt(i)){
-        //         sb.append(ch);
-        //     } else {
-        //         break;
-        //     }
-        // }
-         
-        
-        // return sb.toString();
+        // return strs[0].substring(strs[n]);
+        StringBuilder sb = new StringBuilder();
+        int m = Math.min(strs[0].length(), strs[n].length());
+        for(int j = 0; j < m; j++){
+            String a = strs[0];
+            String b = strs[n];
 
-        String prefix = strs[0];
-        // maan liya ki pehla string prefix hai:
-        for (int i = 0; i < strs.length; i++){
-
-            // jab tak current string prefix se start nahi krta -> keep on decrementing the prefix:
-            while(!strs[i].startsWith(prefix)){
-                prefix = prefix.substring(0, prefix.length()-1);
-                if (prefix.isEmpty()) return "";
+            if (a.charAt(j) == b.charAt(j)){
+                sb.append(a.charAt(j));
+            } else {
+                break;
             }
         }
 
-        return prefix;
+        return sb.toString();
     }
 }
