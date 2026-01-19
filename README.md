@@ -515,6 +515,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0739-daily-temperatures](https://github.com/kashishbishnoi23/Leetcode/tree/master/0739-daily-temperatures) |
 | [0937-online-stock-span](https://github.com/kashishbishnoi23/Leetcode/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/kashishbishnoi23/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
+| [1021-remove-outermost-parentheses](https://github.com/kashishbishnoi23/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [2211-count-collisions-on-a-road](https://github.com/kashishbishnoi23/Leetcode/tree/master/2211-count-collisions-on-a-road) |
 | [2227-sum-of-subarray-ranges](https://github.com/kashishbishnoi23/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
@@ -830,6 +831,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/kashishbishnoi23/Leetcode/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0721-accounts-merge](https://github.com/kashishbishnoi23/Leetcode/tree/master/0721-accounts-merge) |
 | [0990-satisfiability-of-equality-equations](https://github.com/kashishbishnoi23/Leetcode/tree/master/0990-satisfiability-of-equality-equations) |
+| [1021-remove-outermost-parentheses](https://github.com/kashishbishnoi23/Leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1092-shortest-common-supersequence](https://github.com/kashishbishnoi23/Leetcode/tree/master/1092-shortest-common-supersequence) |
 | [1119-robot-bounded-in-circle](https://github.com/kashishbishnoi23/Leetcode/tree/master/1119-robot-bounded-in-circle) |
 | [1143-longest-common-subsequence](https://github.com/kashishbishnoi23/Leetcode/tree/master/1143-longest-common-subsequence) |
