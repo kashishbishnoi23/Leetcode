@@ -152,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2603-collect-coins-in-a-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/2603-collect-coins-in-a-tree) |
 | [2606-difference-between-ones-and-zeros-in-row-and-column](https://github.com/kashishbishnoi23/Leetcode/tree/master/2606-difference-between-ones-and-zeros-in-row-and-column) |
 | [2915-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/kashishbishnoi23/Leetcode/tree/master/2915-length-of-the-longest-subsequence-that-sums-to-target) |
+| [2940-find-building-where-alice-and-bob-can-meet](https://github.com/kashishbishnoi23/Leetcode/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/kashishbishnoi23/Leetcode/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/kashishbishnoi23/Leetcode/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/kashishbishnoi23/Leetcode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
@@ -298,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2054-two-best-non-overlapping-events](https://github.com/kashishbishnoi23/Leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2327-largest-number-after-digit-swaps-by-parity](https://github.com/kashishbishnoi23/Leetcode/tree/master/2327-largest-number-after-digit-swaps-by-parity) |
 | [2642-design-graph-with-shortest-path-calculator](https://github.com/kashishbishnoi23/Leetcode/tree/master/2642-design-graph-with-shortest-path-calculator) |
+| [2940-find-building-where-alice-and-bob-can-meet](https://github.com/kashishbishnoi23/Leetcode/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Bucket Sort
@@ -393,6 +395,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2080-range-frequency-queries](https://github.com/kashishbishnoi23/Leetcode/tree/master/2080-range-frequency-queries) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
 | [2560-house-robber-iv](https://github.com/kashishbishnoi23/Leetcode/tree/master/2560-house-robber-iv) |
+| [2940-find-building-where-alice-and-bob-can-meet](https://github.com/kashishbishnoi23/Leetcode/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
 ## Binary Tree
 |  |
@@ -522,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2211-count-collisions-on-a-road](https://github.com/kashishbishnoi23/Leetcode/tree/master/2211-count-collisions-on-a-road) |
 | [2227-sum-of-subarray-ranges](https://github.com/kashishbishnoi23/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
+| [2940-find-building-where-alice-and-bob-can-meet](https://github.com/kashishbishnoi23/Leetcode/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -981,6 +985,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0937-online-stock-span](https://github.com/kashishbishnoi23/Leetcode/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/kashishbishnoi23/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
 | [2227-sum-of-subarray-ranges](https://github.com/kashishbishnoi23/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
+| [2940-find-building-where-alice-and-bob-can-meet](https://github.com/kashishbishnoi23/Leetcode/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
 ## Shortest Path
 |  |
 | ------- |
@@ -1129,9 +1134,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/kashishbishnoi23/Leetcode/tree/master/0307-range-sum-query-mutable) |
+| [2940-find-building-where-alice-and-bob-can-meet](https://github.com/kashishbishnoi23/Leetcode/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
 ## Segment Tree
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/kashishbishnoi23/Leetcode/tree/master/0307-range-sum-query-mutable) |
 | [2080-range-frequency-queries](https://github.com/kashishbishnoi23/Leetcode/tree/master/2080-range-frequency-queries) |
+| [2940-find-building-where-alice-and-bob-can-meet](https://github.com/kashishbishnoi23/Leetcode/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
 <!---LeetCode Topics End-->
