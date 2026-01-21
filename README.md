@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1458-max-dot-product-of-two-subsequences](https://github.com/kashishbishnoi23/Leetcode/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1514-path-with-maximum-probability](https://github.com/kashishbishnoi23/Leetcode/tree/master/1514-path-with-maximum-probability) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/kashishbishnoi23/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1631-path-with-minimum-effort](https://github.com/kashishbishnoi23/Leetcode/tree/master/1631-path-with-minimum-effort) |
 | [1755-closest-subsequence-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/1755-closest-subsequence-sum) |
 | [1845-largest-submatrix-with-rearrangements](https://github.com/kashishbishnoi23/Leetcode/tree/master/1845-largest-submatrix-with-rearrangements) |
@@ -262,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1397-search-suggestions-system](https://github.com/kashishbishnoi23/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/kashishbishnoi23/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1755-closest-subsequence-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/1755-closest-subsequence-sum) |
 | [1845-largest-submatrix-with-rearrangements](https://github.com/kashishbishnoi23/Leetcode/tree/master/1845-largest-submatrix-with-rearrangements) |
 | [2054-two-best-non-overlapping-events](https://github.com/kashishbishnoi23/Leetcode/tree/master/2054-two-best-non-overlapping-events) |
@@ -684,6 +686,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/kashishbishnoi23/Leetcode/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1458-max-dot-product-of-two-subsequences](https://github.com/kashishbishnoi23/Leetcode/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1494-parallel-courses-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1494-parallel-courses-ii) |
+| [1547-minimum-cost-to-cut-a-stick](https://github.com/kashishbishnoi23/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1755-closest-subsequence-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/1755-closest-subsequence-sum) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/kashishbishnoi23/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2054-two-best-non-overlapping-events](https://github.com/kashishbishnoi23/Leetcode/tree/master/2054-two-best-non-overlapping-events) |
