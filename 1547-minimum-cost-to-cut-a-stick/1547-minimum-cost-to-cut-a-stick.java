@@ -32,10 +32,28 @@ class Solution {
 
         int[][] dp = new int[m][m];
 
-        for (int i = 0; i < m; i++){
-            Arrays.fill(dp[i], -1);
+        // for (int i = 0; i < m; i++){
+        //     Arrays.fill(dp[i], -1);
+        // }
+
+        // return recursion(1, cuts.length, cuts2, dp); // i, j, cuts
+        int l = cuts.length;
+
+        for (int i = l; i >= 1; i--){
+            for (int j = i; j <= l; j++){
+                int min = Integer.MAX_VALUE;
+                for (int k = i; k <= j; k++){
+                    int cost = cuts2[j+1] - cuts2[i-1] + dp[i][k-1] + dp[k+1][j];
+                min = Math.min(min, cost);
+
+                }
+
+                dp[i][j] = min;
+
+            }
+
         }
 
-        return recursion(1, cuts.length, cuts2, dp); // i, j, cuts
+        return dp[1][l];
     }
 }
