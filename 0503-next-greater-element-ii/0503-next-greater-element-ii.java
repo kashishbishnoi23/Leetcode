@@ -3,34 +3,31 @@ class Solution {
         int n = nums.length;
         Stack<Integer> st = new Stack<>();
 
-        for (int j = n-1; j >= 0; j--){
-
-            while(!st.isEmpty() && st.peek() <= nums[j]){
-                 st.pop();
-            }
-             st.push(nums[j]);
-        }
+        for (int i = n-2; i >= 0; i--){
+            st.push(nums[i]);
+        } 
 
         int[] ans = new int[n];
 
-        for (int j = n-1; j >= 0; j--){
-            if (st.isEmpty()){
-                ans[j] = -1;
-            } else {
-                while(!st.isEmpty() && st.peek() <= nums[j]){
-                 st.pop();
-            }
-            if (st.isEmpty()){
-                ans[j] = -1;
-            } else {
-                ans[j] = st.peek();
-            }
-            
-        }
+        // while(!st.isEmpty())
 
-            st.push(nums[j]);
+        for (int i = n-1; i >= 0; i--){
+            // check if the stack has a greater element than the current element:
+            int curr = nums[i];
+            while(!st.isEmpty() && st.peek() <= curr){
+                st.pop();
+            }
+
+            if (st.isEmpty()){
+                ans[i] = -1;
+            } else {
+                ans[i] = st.peek();
+            }
+
+            st.push(curr);
         }
 
         return ans;
+
     }
 }
