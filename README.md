@@ -163,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/kashishbishnoi23/Leetcode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3432-count-partitions-with-even-sum-difference](https://github.com/kashishbishnoi23/Leetcode/tree/master/3432-count-partitions-with-even-sum-difference) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3531-count-covered-buildings](https://github.com/kashishbishnoi23/Leetcode/tree/master/3531-count-covered-buildings) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/kashishbishnoi23/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3583-count-special-triplets](https://github.com/kashishbishnoi23/Leetcode/tree/master/3583-count-special-triplets) |
@@ -222,6 +223,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3193-maximum-strong-pair-xor-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3193-maximum-strong-pair-xor-i) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/kashishbishnoi23/Leetcode/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3531-count-covered-buildings](https://github.com/kashishbishnoi23/Leetcode/tree/master/3531-count-covered-buildings) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/kashishbishnoi23/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3583-count-special-triplets](https://github.com/kashishbishnoi23/Leetcode/tree/master/3583-count-special-triplets) |
@@ -304,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2327-largest-number-after-digit-swaps-by-parity](https://github.com/kashishbishnoi23/Leetcode/tree/master/2327-largest-number-after-digit-swaps-by-parity) |
 | [2642-design-graph-with-shortest-path-calculator](https://github.com/kashishbishnoi23/Leetcode/tree/master/2642-design-graph-with-shortest-path-calculator) |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/kashishbishnoi23/Leetcode/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Bucket Sort
@@ -447,6 +450,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0817-design-hashmap](https://github.com/kashishbishnoi23/Leetcode/tree/master/0817-design-hashmap) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/kashishbishnoi23/Leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Merge Sort
 |  |
 | ------- |
@@ -705,6 +709,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/kashishbishnoi23/Leetcode/tree/master/0146-lru-cache) |
 | [0432-all-oone-data-structure](https://github.com/kashishbishnoi23/Leetcode/tree/master/0432-all-oone-data-structure) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Union Find
 |  |
 | ------- |
@@ -810,6 +815,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2211-count-collisions-on-a-road](https://github.com/kashishbishnoi23/Leetcode/tree/master/2211-count-collisions-on-a-road) |
 | [2288-count-operations-to-obtain-zero](https://github.com/kashishbishnoi23/Leetcode/tree/master/2288-count-operations-to-obtain-zero) |
 | [2606-difference-between-ones-and-zeros-in-row-and-column](https://github.com/kashishbishnoi23/Leetcode/tree/master/2606-difference-between-ones-and-zeros-in-row-and-column) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/kashishbishnoi23/Leetcode/tree/master/3616-make-array-elements-equal-to-zero) |
 ## String
 |  |
@@ -1138,6 +1144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/kashishbishnoi23/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [3507-minimum-pair-removal-to-sort-array-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 ## Binary Indexed Tree
 |  |
 | ------- |
