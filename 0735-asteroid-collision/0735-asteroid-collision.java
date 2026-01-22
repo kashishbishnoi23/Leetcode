@@ -8,25 +8,22 @@ class Solution {
            st.push(asteroids[j++]);
         }
 
-        while(j < n){
-            int curr = asteroids[j];
+        for (int i = j; i < n; i++){
+            int curr = asteroids[i];
 
             if (curr > 0){
                 // agar positive hai -> simply push to the stack
                 st.push(curr);
-                j++;
                 continue;
             }
 
             // agar negative hai aur st.peek() se chhota hai -> collide hoke khatam ho jayega:
             if (!st.isEmpty() && Math.abs(curr) < st.peek()){
-                j++;
                 continue;
             }
 
             if (!st.isEmpty() && Math.abs(curr) == st.peek()){
                 st.pop();
-                j++;
                 continue;
             }
 
@@ -41,9 +38,8 @@ class Solution {
             } else if (st.peek() == Math.abs(curr)){
                 st.pop();
             }
-            j++;
-
-        }
+        
+    }
 
         int[] ans = new int[st.size()];
 
