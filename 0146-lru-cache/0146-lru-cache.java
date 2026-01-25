@@ -2,48 +2,97 @@ class LRUCache {
 
     static class Node{
         int key;
-        int value;
+        int val;
         Node next;
         Node prev;
 
-        public Node(int key, int value){
+        Node(int key, int val){
             this.key = key;
-            this.value = value;
+            this.val = val;
             this.next = null;
             this.prev = null;
         }
-    }
+    };
 
-    // keep a hashmap to have a track of if this key is present or not:
-    HashMap<Integer, Node> hashing;
-    Node head;
-    Node last;
-
+    HashMap<Integer,Node> hashing; // stores the keys and values 
     int capacity;
+    Node head;
+    Node tail;
     int N;
 
     public LRUCache(int capacity) {
-        this.capacity = capacity;
-        this.N = 0;
-        this.hashing = new HashMap<>();
+        this.capacity = capacity;  
         this.head = null;
-        this.last = null;
+        this.tail = null;  
+        this.hashing = new HashMap<>();
+        this.N = 0;
+    }
+    
+    public int get(int key) {
+        if (!hashing.containsKey(key)) return -1;
+        int val = hashing.get(key).val;
+
+        // change the priority of key => put it at last:
+        changePriority(key);
+
+        return val;
+    }
+    
+    public void put(int key, int value) {
+        Node node = null;
+        if (!hashing.isEmpty() && hashing.containsKey(key)){
+            node = hashing.get(key);
+            node.val = value;
+            changePriority(key);
+            return;
+        }
+
+        node = new Node(key, value);
+        hashing.put(key, node);
+        N++;
+
+        if (head == null ){
+            head = node;
+            tail = node;
+        } else {
+            // put it at the end:
+            tail.next = node;
+            node.prev = tail;
+            tail = tail.next;
+        }  
+    
+
+
+        if (N > capacity){
+            Node toremove = head;
+ 
+            if (head == tail){
+                head = null;
+                tail = null;
+            } else {
+                head = head.next;
+                if (head != null) head.prev = null;
+            }
+
+            hashing.remove(toremove.key);
+
+            
+            N--;
+        }
     }
 
     private void changePriority(int key){
-        // isko uthaake last pe lagado:
         Node node = hashing.get(key);
-
-        if (last == node) return;
+        if (node == tail) return;
         if (node == head){
-            head = head.next;
-            if (head != null){
-                head.prev = null;
-            }
+            head = node.next;
         }
-   
-        Node prev = node.prev;
-        Node next = node.next;
+
+        Node prev = null;
+        Node next = null;
+
+        if (node.prev != null) prev = node.prev;
+        if (node.next != null) next = node.next;
 
         if (prev != null){
             prev.next = next;
@@ -53,61 +102,10 @@ class LRUCache {
             next.prev = prev;
         }
 
-        last.next = node;
-        node.prev = last;
-        last = node;
+        tail.next = node;
+        node.prev = tail;
+        tail = tail.next;
 
-    }
-    
-    public int get(int key) {
-        if (hashing.containsKey(key)){
-            changePriority(key);
-            return hashing.get(key).value;
-        }
-        return -1;
-
-        // agar present nahi hai to create a new node and insert it at the end:     
-    }
-    
-    public void put(int key, int value) {
-
-        if (hashing.containsKey(key)){
-            hashing.get(key).value = value;
-            changePriority(key);
-            return;
-        }
-
-        if (this.N == this.capacity){
-            // remove the first element:
-            hashing.remove(head.key);
-            head = head.next;
-            if (head != null){
-                head.prev = null;
-            }
-
-            this.N--;
-        }
-
-        // create a new node:
-        Node newnode = new Node(key, value);
-        hashing.put(key, newnode);
-        this.N++;
-
-        if (head == null){
-            head = newnode;
-            last = newnode;
-            return;
-        }
-
-
-        
-        last.next = newnode;
-        newnode.prev = last;
-        last = newnode;
-
-        
-
-        
     }
 }
 
