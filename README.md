@@ -443,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/kashishbishnoi23/Leetcode/tree/master/0002-add-two-numbers) |
 | [0023-merge-k-sorted-lists](https://github.com/kashishbishnoi23/Leetcode/tree/master/0023-merge-k-sorted-lists) |
+| [0025-reverse-nodes-in-k-group](https://github.com/kashishbishnoi23/Leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/kashishbishnoi23/Leetcode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0146-lru-cache](https://github.com/kashishbishnoi23/Leetcode/tree/master/0146-lru-cache) |
@@ -989,6 +990,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/kashishbishnoi23/Leetcode/tree/master/0002-add-two-numbers) |
+| [0025-reverse-nodes-in-k-group](https://github.com/kashishbishnoi23/Leetcode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0044-wildcard-matching](https://github.com/kashishbishnoi23/Leetcode/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/kashishbishnoi23/Leetcode/tree/master/0050-powx-n) |
 | [0234-palindrome-linked-list](https://github.com/kashishbishnoi23/Leetcode/tree/master/0234-palindrome-linked-list) |
