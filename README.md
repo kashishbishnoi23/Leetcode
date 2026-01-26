@@ -238,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/kashishbishnoi23/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/kashishbishnoi23/Leetcode/tree/master/0053-maximum-subarray) |
+| [0148-sort-list](https://github.com/kashishbishnoi23/Leetcode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/kashishbishnoi23/Leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
@@ -254,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/kashishbishnoi23/Leetcode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/kashishbishnoi23/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0088-merge-sorted-array) |
+| [0148-sort-list](https://github.com/kashishbishnoi23/Leetcode/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/kashishbishnoi23/Leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/kashishbishnoi23/Leetcode/tree/master/0217-contains-duplicate) |
@@ -459,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/kashishbishnoi23/Leetcode/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/kashishbishnoi23/Leetcode/tree/master/0146-lru-cache) |
+| [0148-sort-list](https://github.com/kashishbishnoi23/Leetcode/tree/master/0148-sort-list) |
 | [0234-palindrome-linked-list](https://github.com/kashishbishnoi23/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0328-odd-even-linked-list](https://github.com/kashishbishnoi23/Leetcode/tree/master/0328-odd-even-linked-list) |
 | [0355-design-twitter](https://github.com/kashishbishnoi23/Leetcode/tree/master/0355-design-twitter) |
@@ -477,6 +480,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/kashishbishnoi23/Leetcode/tree/master/0023-merge-k-sorted-lists) |
+| [0148-sort-list](https://github.com/kashishbishnoi23/Leetcode/tree/master/0148-sort-list) |
 ## Two Pointers
 |  |
 | ------- |
@@ -493,6 +497,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/kashishbishnoi23/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/kashishbishnoi23/Leetcode/tree/master/0143-reorder-list) |
+| [0148-sort-list](https://github.com/kashishbishnoi23/Leetcode/tree/master/0148-sort-list) |
 | [0189-rotate-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/kashishbishnoi23/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/kashishbishnoi23/Leetcode/tree/master/0283-move-zeroes) |
