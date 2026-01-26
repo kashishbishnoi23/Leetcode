@@ -11,45 +11,46 @@
 class Solution {
 
     private ListNode reverse(ListNode head){
-        if (head == null || head.next == null) return head;
+        if (head.next == null) return head;
+
         ListNode next = head.next;
         ListNode newhead = reverse(head.next);
         next.next = head;
-        head.next = null;
+
         return newhead;
+
     }
     public boolean isPalindrome(ListNode head) {
-
+        // check if the reverse is same to the original
         if (head == null || head.next == null) return true;
+
+        // find the middle:
         ListNode slow = head;
         ListNode fast = head;
         ListNode prev = null;
 
         while(fast != null && fast.next != null){
             prev = slow;
-            slow = slow.next;
-            fast = fast.next.next;
+             slow = slow.next;
+             fast = fast.next.next;
+
         }
 
         prev.next = null;
 
-        // reverse LL from slow:
-        ListNode reverseHead = reverse(slow);
+        // reverse from slow:
+        ListNode reversed = reverse(slow);
 
-        ListNode temp1 = head;
-        ListNode temp2 = reverseHead;
+        ListNode temp = head;
 
-        while(temp1 != null && temp2 != null){
-            if (temp1.val != temp2.val) return false;
-            temp1 = temp1.next;
-            temp2 = temp2.next;
+        while(temp != null){
+            if (temp.val != reversed.val) return false;
+            temp = temp.next;
+            reversed = reversed.next;
         }
-
 
         return true;
 
-
-        
 
 
     }
