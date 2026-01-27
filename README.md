@@ -319,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/kashishbishnoi23/Leetcode/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -1052,6 +1053,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2642-design-graph-with-shortest-path-calculator](https://github.com/kashishbishnoi23/Leetcode/tree/master/2642-design-graph-with-shortest-path-calculator) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/kashishbishnoi23/Leetcode/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Combinatorics
 |  |
 | ------- |
@@ -1198,4 +1200,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0307-range-sum-query-mutable](https://github.com/kashishbishnoi23/Leetcode/tree/master/0307-range-sum-query-mutable) |
 | [2080-range-frequency-queries](https://github.com/kashishbishnoi23/Leetcode/tree/master/2080-range-frequency-queries) |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/kashishbishnoi23/Leetcode/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
+## Graph Theory
+|  |
+| ------- |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/kashishbishnoi23/Leetcode/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 <!---LeetCode Topics End-->
