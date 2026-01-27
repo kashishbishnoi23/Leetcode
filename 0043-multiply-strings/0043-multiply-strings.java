@@ -1,39 +1,35 @@
 class Solution {
-
     public String multiply(String num1, String num2) {
-
-        if (num1.equals("0") || num2.equals("0")) return "0";
-
         int n = num1.length();
         int m = num2.length();
-        int[] result = new int[n + m]; // max possible size
 
-        // Multiply each digit
-        for (int i = n - 1; i >= 0; i--) {
-            for (int j = m - 1; j >= 0; j--) {
-                int mul = (num1.charAt(i) - '0') * (num2.charAt(j) - '0');
-                int sum = mul + result[i + j + 1];
+        int[] res = new int[n+m]; // max length of ans:
 
-                result[i + j + 1] = sum % 10;      // current digit
-                result[i + j] += sum / 10;         // carry
+        for (int i = n-1; i >= 0; i--){
+            for (int j = m-1; j >= 0; j--){
+                int mul = (num1.charAt(i) - '0')*(num2.charAt(j) - '0');
+
+                // curr digit -> res[i+j+1]
+                int sum = mul + res[i+j+1];
+
+                res[i+j+1] = sum % 10;
+                res[i+j] += sum/10;
             }
         }
 
-        // Build string (skip leading zeros)
         StringBuilder sb = new StringBuilder();
-        for (int num : result) {
-            if (!(sb.length() == 0 && num == 0)) {
-                sb.append(num);
-            }
+
+        int indx = 0;
+
+        while(indx < m+n-1 && res[indx] == 0){
+            indx++;
         }
 
-        return sb.length() == 0 ? "0" : sb.toString();
+        while(indx < m+n){
+            sb.append(res[indx++]);
+        }
 
-        
-
-        
-
-
-
+        return sb.toString();
     }
+
 }
