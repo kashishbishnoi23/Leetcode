@@ -1,59 +1,57 @@
 class Solution {
 
-    private boolean isValid(int n, int row, int index, List<StringBuilder> temp){
+    private int recursive(int[][] board, int row){
+        int n = board.length;
+        if (row == n){
+           return 1;
+        }
+        
+        int total = 0;
+        for (int col = 0; col < n; col++){
+            // can I put the queen here:
+            if (isValid(board, row, col)){
+                board[row][col] = 1;
+                total += recursive(board, row+1);
+                board[row][col] = 0;          
+            }
+            
+        }
+
+        return total;
+
+        
+    }
+
+    private boolean isValid(int[][] board, int row, int col){
         if (row == 0) return true;
+        int n = board.length;
 
-        // check if above columns have Q:
         for (int i = 0; i < row; i++){
-            if (temp.get(i).charAt(index) == 'Q') return false;
+            if (board[i][col] == 1) return false;
         }
 
-        int col = 1;
-        for (int j = row-1; j >= 0; j--){
-            if (index-col >= 0 && temp.get(j).charAt(index-col) == 'Q') return false;
+        int i = row;
+        int j = col;
 
-            if (index + col < n && temp.get(j).charAt(index+col) == 'Q') return false;
-            col++;
+        while(i >= 0 && j >= 0){
+            if (board[i][j] == 1) return false;
+            i--;
+            j--;
         }
+        i = row;
+        j = col;
+
+        while(i >= 0 && j < n){
+            if (board[i][j] == 1) return false;
+            i--;
+            j++;
+        }  
 
         return true;
     }
-
-    private int helper(int n, int row, List<StringBuilder> temp){
-
-        if (row == n) return 1;
-        
-        int comb = 0;
-        // fill the queen in current row:
-        for (int i = 0; i < n; i++){
-            // fill the queen at current index if valid:
-            if (isValid(n, row, i, temp)){
-                temp.get(row).setCharAt(i, 'Q');
-                // go to next row:
-                comb += helper(n, row+1, temp);
-
-                // reset:
-                temp.get(row).setCharAt(i, '.');
-            }
-        }
-
-        return comb;
-        
-    }
-
     public int totalNQueens(int n) {
-        
-        List<StringBuilder> temp = new ArrayList<>();
-        for (int i = 0; i < n; i++){
-            StringBuilder sb = new StringBuilder();
-            for (int j = 0; j < n; j++){
-                sb.append('.');
-            }
-            temp.add(sb);
-        }
+        int[][] board = new int[n][n];
 
-        return helper(n, 0, temp);
-
-
+        return recursive(board, 0); // board and row
     }
 }
