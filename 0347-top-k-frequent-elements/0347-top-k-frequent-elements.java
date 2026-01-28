@@ -1,40 +1,48 @@
 class Solution {
-    static class Number{
-        int num;
-        int freq;
 
-        public Number(int number, int freq){
-            this.num = number;
-            this.freq = freq;
+    static class Node{
+        int val;
+        int count;
+
+        public Node(int val, int count){
+            this.val = val;
+            this.count = 1; 
         }
     }
     public int[] topKFrequent(int[] nums, int k) {
-        int [] ans = new int [k];
-        Map<Integer, Integer> hashing = new HashMap<>();
+        int n = nums.length;
 
-        // store the frequency of elements in the HashMap
-        for (int num : nums){
-            hashing.put(num, hashing.getOrDefault(num, 0)+1);
-        }
+        // store the integer with their node:
+        HashMap<Integer, Node> hashing = new HashMap<>();
 
-        PriorityQueue<Number> pq = new PriorityQueue<>((a, b) -> Integer.compare(a.freq, b.freq));
-        // Store the topmost k elements in The priority queue
-        for (int key : hashing.keySet()){
-            pq.offer(new Number(key, hashing.get(key)));
-            if (pq.size() > k){
-                pq.poll();
+        PriorityQueue<Node> pq = new PriorityQueue<>((a, b) -> Integer.compare(b.count, a.count));
+
+        for (int i = 0; i < n; i++){
+            int val = nums[i];
+            Node node = null;
+            if (!hashing.containsKey(val)){
+                node = new Node(val, 1);
+                hashing.put(val, node);
+            } else {
+                hashing.get(val).count ++;
             }
         }
 
-        int index = 0;
+        for (int key : hashing.keySet()){
+            pq.offer(hashing.get(key));
+        }
 
-        // pop them out:
-        while(k > 0){
-           ans[index++] = pq.poll().num; 
-           k--;
+        int count = 0;
+        int[] ans = new int[k];
+        int indx = 0;
+        System.out.println(pq.size());
+
+        while(count < k){
+            ans[indx++] = pq.poll().val;
+            count ++;
         }
 
         return ans;
-
+        
     }
 }
