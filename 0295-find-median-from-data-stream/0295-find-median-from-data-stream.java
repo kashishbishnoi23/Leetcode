@@ -11,14 +11,14 @@ class MedianFinder {
     }
     
     public void addNum(int num) {
-        
-        // jo bhi element aaye pehle use maxHeap me daalo:
         maxHeap.offer(num);
 
-        // ab uska max uthaake minHeap me daal do:
+        // agar mera current element -> maxHeap ke sabse bade element se chhota hai to current maxHeap me jayega aur maxHeap ka max minHeap me jayega -> isliye ham pehle maxHeap me num ko dalenge -> fir uska max nikalke minHeap me daal denge
+
+        // ab max element uthaake minHeap me daalo:
         minHeap.offer(maxHeap.poll());
 
-        // agar minHeap ka size badh jaye to wapas maxHeap me daal do:
+        // minHeap ka size maxHeap k barabar (even number of elements) ya kam rkhna hai (for odd number of elements):
         if (minHeap.size() > maxHeap.size()){
             maxHeap.offer(minHeap.poll());
         }
@@ -26,11 +26,11 @@ class MedianFinder {
     }
     
     public double findMedian() {
-        if (maxHeap.size() > minHeap.size()){
-            return (double) maxHeap.peek();
-        } else {
+         if (maxHeap.size() == minHeap.size()){
             return (maxHeap.peek() + minHeap.peek())/2.0;
-        }
+         } else {
+            return maxHeap.peek();
+         }
     }
 }
 
