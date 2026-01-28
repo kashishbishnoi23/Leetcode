@@ -1,28 +1,36 @@
 class MedianFinder {
 
-    PriorityQueue<Integer> minHeap = new PriorityQueue<>();
-    PriorityQueue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+    PriorityQueue<Integer> maxHeap;
+    PriorityQueue<Integer> minHeap;
+
 
     public MedianFinder() {
-
+        this.maxHeap = new PriorityQueue<>((a, b) -> Integer.compare(b, a));
+        this.minHeap = new PriorityQueue<>((a, b) -> Integer.compare(a, b));
+        
     }
     
     public void addNum(int num) {
-       maxHeap.offer(num);
-       minHeap.offer(maxHeap.poll());
+        
+        // jo bhi element aaye pehle use maxHeap me daalo:
+        maxHeap.offer(num);
 
-       if (minHeap.size() > maxHeap.size()){
-        maxHeap.offer(minHeap.poll());
-       }
+        // ab uska max uthaake minHeap me daal do:
+        minHeap.offer(maxHeap.poll());
+
+        // agar minHeap ka size badh jaye to wapas maxHeap me daal do:
+        if (minHeap.size() > maxHeap.size()){
+            maxHeap.offer(minHeap.poll());
+        }
+        
     }
     
     public double findMedian() {
         if (maxHeap.size() > minHeap.size()){
-            return maxHeap.peek();
+            return (double) maxHeap.peek();
         } else {
-            return (double) (maxHeap.peek() + minHeap.peek())/2.0;
-        } 
-        
+            return (maxHeap.peek() + minHeap.peek())/2.0;
+        }
     }
 }
 
