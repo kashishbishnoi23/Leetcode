@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0303-range-sum-query-immutable](https://github.com/kashishbishnoi23/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/kashishbishnoi23/Leetcode/tree/master/0307-range-sum-query-mutable) |
 | [0312-burst-balloons](https://github.com/kashishbishnoi23/Leetcode/tree/master/0312-burst-balloons) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/kashishbishnoi23/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0322-coin-change](https://github.com/kashishbishnoi23/Leetcode/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0347-top-k-frequent-elements](https://github.com/kashishbishnoi23/Leetcode/tree/master/0347-top-k-frequent-elements) |
@@ -246,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0307-range-sum-query-mutable](https://github.com/kashishbishnoi23/Leetcode/tree/master/0307-range-sum-query-mutable) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/kashishbishnoi23/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0347-top-k-frequent-elements](https://github.com/kashishbishnoi23/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0968-beautiful-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0968-beautiful-array) |
 | [0973-k-closest-points-to-origin](https://github.com/kashishbishnoi23/Leetcode/tree/master/0973-k-closest-points-to-origin) |
@@ -408,6 +410,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0240-search-a-2d-matrix-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0268-missing-number](https://github.com/kashishbishnoi23/Leetcode/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/kashishbishnoi23/Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/kashishbishnoi23/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0540-single-element-in-a-sorted-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0611-valid-triangle-number](https://github.com/kashishbishnoi23/Leetcode/tree/master/0611-valid-triangle-number) |
@@ -496,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/kashishbishnoi23/Leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0148-sort-list](https://github.com/kashishbishnoi23/Leetcode/tree/master/0148-sort-list) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/kashishbishnoi23/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 ## Two Pointers
 |  |
 | ------- |
@@ -1206,6 +1210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/kashishbishnoi23/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [1825-finding-mk-average](https://github.com/kashishbishnoi23/Leetcode/tree/master/1825-finding-mk-average) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/kashishbishnoi23/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
@@ -1213,11 +1218,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/kashishbishnoi23/Leetcode/tree/master/0307-range-sum-query-mutable) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/kashishbishnoi23/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/kashishbishnoi23/Leetcode/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
 ## Segment Tree
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/kashishbishnoi23/Leetcode/tree/master/0307-range-sum-query-mutable) |
+| [0315-count-of-smaller-numbers-after-self](https://github.com/kashishbishnoi23/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [2080-range-frequency-queries](https://github.com/kashishbishnoi23/Leetcode/tree/master/2080-range-frequency-queries) |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/kashishbishnoi23/Leetcode/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
 ## Graph Theory
