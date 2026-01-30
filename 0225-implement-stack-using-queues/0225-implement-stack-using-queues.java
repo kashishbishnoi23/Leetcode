@@ -1,50 +1,53 @@
 class MyStack {
 
-    // Queue<Integer> queue; 
+    Queue<Integer> q1;
+    Queue<Integer> q2;
 
-    Deque<Integer> queue;
-    public MyStack(){
-        // queue = new LinkedList<>();
-        queue = new LinkedList<>();
+    public MyStack() {
+        this.q1 = new LinkedList<>();
+        this.q2 = new LinkedList<>();    
     }
     
     public void push(int x) {
-        // queue.offer(x);
-        queue.offerLast(x);
+        q1.offer(x); 
     }
     
     public int pop() {
-        // go to the last node:
-        // Queue<Integer> temp = new LinkedList<>();
-         
-        // int value = -1;
-        // while(!queue.isEmpty()){
-        //     value = queue.poll();
-        //     if (queue.isEmpty()) break; 
-        //     temp.offer(value);
-        // }
+        if (empty()) return -1;
+        while(q1.size() > 1){
+            q2.offer(q1.poll());
+        }
 
-        // queue = temp;
-        // return value;
+        int value = q1.poll();
+        q1 = q2;
+        q2 = new LinkedList<>();
 
-        return queue.pollLast();
-        
+        return value;
+
     }
     
     public int top() {
-        // int val = pop();
-        // queue.offer(val);
+        if (empty()) return -1;
+        while(q1.size() > 1){
+            q2.offer(q1.poll());
+        }
 
-        // return val;
-        return queue.peekLast();
+        int value = q1.peek();
+        q2.offer(q1.poll());
+        q1 = q2;
+        q2 = new LinkedList<>();
+
+        return value;
+
+        
     }
     
     public boolean empty() {
-        // return queue.isEmpty();
 
-        return queue.isEmpty();
+        if (q1.isEmpty()) return true;
 
-
+        return false;
+        
     }
 }
 
