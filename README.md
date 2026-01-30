@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/kashishbishnoi23/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0611-valid-triangle-number](https://github.com/kashishbishnoi23/Leetcode/tree/master/0611-valid-triangle-number) |
 | [0621-task-scheduler](https://github.com/kashishbishnoi23/Leetcode/tree/master/0621-task-scheduler) |
+| [0622-design-circular-queue](https://github.com/kashishbishnoi23/Leetcode/tree/master/0622-design-circular-queue) |
 | [0630-course-schedule-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0630-course-schedule-iii) |
 | [0692-top-k-frequent-words](https://github.com/kashishbishnoi23/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [0695-max-area-of-island](https://github.com/kashishbishnoi23/Leetcode/tree/master/0695-max-area-of-island) |
@@ -387,6 +388,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/kashishbishnoi23/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0432-all-oone-data-structure](https://github.com/kashishbishnoi23/Leetcode/tree/master/0432-all-oone-data-structure) |
 | [0460-lfu-cache](https://github.com/kashishbishnoi23/Leetcode/tree/master/0460-lfu-cache) |
+| [0622-design-circular-queue](https://github.com/kashishbishnoi23/Leetcode/tree/master/0622-design-circular-queue) |
 | [0707-design-linked-list](https://github.com/kashishbishnoi23/Leetcode/tree/master/0707-design-linked-list) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/kashishbishnoi23/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0816-design-hashset](https://github.com/kashishbishnoi23/Leetcode/tree/master/0816-design-hashset) |
@@ -480,6 +482,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0432-all-oone-data-structure](https://github.com/kashishbishnoi23/Leetcode/tree/master/0432-all-oone-data-structure) |
 | [0460-lfu-cache](https://github.com/kashishbishnoi23/Leetcode/tree/master/0460-lfu-cache) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/kashishbishnoi23/Leetcode/tree/master/0528-swapping-nodes-in-a-linked-list) |
+| [0622-design-circular-queue](https://github.com/kashishbishnoi23/Leetcode/tree/master/0622-design-circular-queue) |
 | [0707-design-linked-list](https://github.com/kashishbishnoi23/Leetcode/tree/master/0707-design-linked-list) |
 | [0816-design-hashset](https://github.com/kashishbishnoi23/Leetcode/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/kashishbishnoi23/Leetcode/tree/master/0817-design-hashmap) |
@@ -1024,6 +1027,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0232-implement-queue-using-stacks](https://github.com/kashishbishnoi23/Leetcode/tree/master/0232-implement-queue-using-stacks) |
 | [0239-sliding-window-maximum](https://github.com/kashishbishnoi23/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0387-first-unique-character-in-a-string](https://github.com/kashishbishnoi23/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
+| [0622-design-circular-queue](https://github.com/kashishbishnoi23/Leetcode/tree/master/0622-design-circular-queue) |
 | [1825-finding-mk-average](https://github.com/kashishbishnoi23/Leetcode/tree/master/1825-finding-mk-average) |
 ## Randomized
 |  |
