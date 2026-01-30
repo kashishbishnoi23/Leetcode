@@ -1,78 +1,89 @@
 class NumArray {
-    
+
     int N;
     int[] segTree;
+    int[] nums;
 
-    private void build(int indx, int low, int high, int[] nums){
-        
-        // base case:
-        if (low == high){
-            segTree[indx] = nums[low];
+    public NumArray(int[] nums) {
+        this.N = nums.length;
+        this.segTree = new int[4*N];
+
+        build(0, N-1, 0, nums);
+        this.nums = nums;
+    }
+
+    public void build(int left, int right, int indx, int[] nums){
+
+        if (left > right) return;
+
+        if (left == right){
+            // leaf node:
+            segTree[indx] = nums[left];
             return;
         }
 
-        int mid = (low + high)/2;
+        int mid = left + (right-left)/2;
 
-        // build the left subtree:
-        build(2*indx+1, low, mid, nums);
+        // left sum:
+        build(left, mid, 2*indx+1, nums);
 
-        // build the right subtree:
-        build(2*indx+2, mid+1, high, nums);
+        // right sum:
+        build(mid+1, right, 2*indx+2, nums);
 
-        segTree[indx] = segTree[2*indx+1] + segTree[2*indx+2];
-
+        segTree[indx] = segTree[2*indx+1] + segTree[2*indx+2]; 
     }
-    public NumArray(int[] nums) {
-        int n = nums.length;
-        this.N = n;
-        this.segTree = new int[4*N];
-         
-        build(0, 0, n-1, nums);
+
+    public void update(int left, int right, int indx, int index, int val){
         
-    }
+        // out of bound:
+        if (index < left || index > right) return;
 
-    private void update(int index, int val, int indx,  int low, int high){
-        if (low == high){
-            // we have reached the element that needs to be updated:
+        if (left == right){
+            nums[left] = val;
             segTree[indx] = val;
             return;
         }
-    
 
-        int mid = (low+high)/2;
+        int mid = left + (right-left)/2;
+
         if (index <= mid){
-            // left subtree me hoga:
-            update(index, val, 2*indx+1, low, mid);
-        } else{
-            update(index, val, 2*indx+2, mid+1, high);
+            // go to left:
+            update(left, mid, 2*indx+1, index, val);
+        } else {
+            // go to right:
+            update(mid+1, right, 2*indx+2, index, val);
         }
 
         segTree[indx] = segTree[2*indx+1] + segTree[2*indx+2];
-        
 
     }
-
-    
+   
     public void update(int index, int val) {
-        update(index, val, 0, 0, N-1);
+        update(0, N-1, 0, index, val);
     }
 
-    private int sumRange(int indx, int low, int high, int left, int right){
+    public int sumRange(int left, int right, int indx, int start, int end, int[] nums){
 
-        if (left > high || right < low) return 0; // out of bounds case:
+        // handle out of range:
+        if (left > end || right < start) return 0;
 
-        if (left <= low && right >= high) return segTree[indx];
+        if (start == end) return nums[start];
 
-        int mid = (low+high)/2;
+        if (left <= start && end <= right){
+            return segTree[indx];
+        }
 
-        int q1 = sumRange(2*indx+1, low, mid, left, right);
-        int q2 = sumRange(2*indx+2, mid+1, high, left, right);
+        int mid = start + (end - start)/2;
 
-        return q1+q2;
+        int leftSum = sumRange(left, right, 2*indx+1, start, mid, nums);
+        int rightSum = sumRange(left, right, 2*indx+2, mid+1, end, nums);
+
+        return leftSum + rightSum;
+
     }
     
     public int sumRange(int left, int right) {
-        return sumRange(0, 0, N-1, left, right);
+        return sumRange(left, right, 0, 0, N-1, nums);
     }
 }
 
