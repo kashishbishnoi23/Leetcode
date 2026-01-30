@@ -3,12 +3,10 @@ class MyCircularQueue {
     static class Node{
         int value;
         Node next;
-        Node prev;
 
         public Node(int value){
             this.value = value;
             this.next = null;
-            this.prev = null;
         }
     }
 
@@ -28,7 +26,6 @@ class MyCircularQueue {
 
         Node newnode = new Node(value);
         rear.next = newnode;
-        newnode.prev = rear;
         rear = rear.next;
         N++;
 
@@ -38,11 +35,8 @@ class MyCircularQueue {
     
     public boolean deQueue() {
         if (isEmpty()) return false;
-        top.value = -1;
         top = top.next;
-        N--;
-        
-        
+        N--;     
         return true;
         
     }
