@@ -35,7 +35,7 @@ class Solution {
     public int minCut(String s) {
         int n = s.length();
 
-        if (isPalindrome(s)) return 0;
+        // if (isPalindrome(s)) return 0;
 
         int[] dp = new int[n+1];
         // Arrays.fill(dp, -1);
