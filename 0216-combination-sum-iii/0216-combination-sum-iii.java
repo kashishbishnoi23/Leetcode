@@ -1,36 +1,39 @@
 class Solution {
 
-    private void recursive(List<List<Integer>> ans, List<Integer> temp, int k, int target, int[] nums, int indx){
+    private void recursion(int num, List<Integer> temp, List<List<Integer>> ans, int k, int target){
 
-        if (target < 0) return;
-
-        if (k == 0){
+        if (temp.size() == k){
             if (target == 0){
-                ans.add(new ArrayList<>(temp));
+                List<Integer> arr = new ArrayList<>(temp);
+                ans.add(arr);
+                return;
             }
+        }
+
+        if (num > target || target < 0 || num > 9){
             return;
         }
 
-        if (indx == nums.length) return;
+     
 
+        // pick not pick:
+        temp.add(num);
+        recursion(num+1, temp,  ans, k, target-num);
 
-        // pick
-        temp.add(nums[indx]);
-        recursive(ans, temp, k-1, target-nums[indx], nums, indx+1);
+        if (!temp.isEmpty()){
+            temp.remove(temp.size()-1);
+        }
 
-        // not pick
-        temp.remove(temp.size()-1);
-        recursive(ans, temp, k, target, nums, indx+1);
+        recursion(num+1, temp, ans, k, target);
 
-        
     }
+
     public List<List<Integer>> combinationSum3(int k, int n) {
         List<List<Integer>> ans = new ArrayList<>();
+
         List<Integer> temp = new ArrayList<>();
 
-        int[] nums = {1,2,3,4,5,6,7,8,9};
-
-        recursive(ans, temp, k, n, nums, 0);
+        recursion(1, temp, ans, k, n);
 
         return ans;
     }
