@@ -762,6 +762,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1458-max-dot-product-of-two-subsequences](https://github.com/kashishbishnoi23/Leetcode/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1494-parallel-courses-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/1494-parallel-courses-ii) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/kashishbishnoi23/Leetcode/tree/master/1547-minimum-cost-to-cut-a-stick) |
+| [1745-palindrome-partitioning-iv](https://github.com/kashishbishnoi23/Leetcode/tree/master/1745-palindrome-partitioning-iv) |
 | [1755-closest-subsequence-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/1755-closest-subsequence-sum) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/kashishbishnoi23/Leetcode/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2054-two-best-non-overlapping-events](https://github.com/kashishbishnoi23/Leetcode/tree/master/2054-two-best-non-overlapping-events) |
@@ -928,6 +929,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/kashishbishnoi23/Leetcode/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1397-search-suggestions-system](https://github.com/kashishbishnoi23/Leetcode/tree/master/1397-search-suggestions-system) |
 | [1469-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/kashishbishnoi23/Leetcode/tree/master/1469-minimum-number-of-steps-to-make-two-strings-anagram) |
+| [1745-palindrome-partitioning-iv](https://github.com/kashishbishnoi23/Leetcode/tree/master/1745-palindrome-partitioning-iv) |
 | [1903-largest-odd-number-in-string](https://github.com/kashishbishnoi23/Leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/kashishbishnoi23/Leetcode/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2115-find-all-possible-recipes-from-given-supplies](https://github.com/kashishbishnoi23/Leetcode/tree/master/2115-find-all-possible-recipes-from-given-supplies) |
