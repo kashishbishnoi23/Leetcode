@@ -163,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2606-difference-between-ones-and-zeros-in-row-and-column](https://github.com/kashishbishnoi23/Leetcode/tree/master/2606-difference-between-ones-and-zeros-in-row-and-column) |
 | [2915-length-of-the-longest-subsequence-that-sums-to-target](https://github.com/kashishbishnoi23/Leetcode/tree/master/2915-length-of-the-longest-subsequence-that-sums-to-target) |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/kashishbishnoi23/Leetcode/tree/master/2940-find-building-where-alice-and-bob-can-meet) |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/kashishbishnoi23/Leetcode/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/kashishbishnoi23/Leetcode/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/kashishbishnoi23/Leetcode/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
@@ -293,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2054-two-best-non-overlapping-events](https://github.com/kashishbishnoi23/Leetcode/tree/master/2054-two-best-non-overlapping-events) |
 | [2327-largest-number-after-digit-swaps-by-parity](https://github.com/kashishbishnoi23/Leetcode/tree/master/2327-largest-number-after-digit-swaps-by-parity) |
 | [2469-longest-subsequence-with-limited-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/2469-longest-subsequence-with-limited-sum) |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3075-maximize-happiness-of-selected-children](https://github.com/kashishbishnoi23/Leetcode/tree/master/3075-maximize-happiness-of-selected-children) |
 | [3531-count-covered-buildings](https://github.com/kashishbishnoi23/Leetcode/tree/master/3531-count-covered-buildings) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
@@ -1096,6 +1098,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1925-count-square-sum-triples](https://github.com/kashishbishnoi23/Leetcode/tree/master/1925-count-square-sum-triples) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/kashishbishnoi23/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/kashishbishnoi23/Leetcode/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k](https://github.com/kashishbishnoi23/Leetcode/tree/master/3328-apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k) |
 ## Trie
 |  |
