@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/kashishbishnoi23/Leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/kashishbishnoi23/Leetcode/tree/master/0198-house-robber) |
+| [0212-word-search-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0212-word-search-ii) |
 | [0213-house-robber-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0213-house-robber-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/kashishbishnoi23/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0216-combination-sum-iii) |
@@ -843,6 +844,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/kashishbishnoi23/Leetcode/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/kashishbishnoi23/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/kashishbishnoi23/Leetcode/tree/master/0130-surrounded-regions) |
+| [0212-word-search-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/kashishbishnoi23/Leetcode/tree/master/0221-maximal-square) |
 | [0240-search-a-2d-matrix-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0240-search-a-2d-matrix-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/kashishbishnoi23/Leetcode/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -913,6 +915,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0132-palindrome-partitioning-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/kashishbishnoi23/Leetcode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0212-word-search-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0212-word-search-ii) |
 | [0242-valid-anagram](https://github.com/kashishbishnoi23/Leetcode/tree/master/0242-valid-anagram) |
 | [0387-first-unique-character-in-a-string](https://github.com/kashishbishnoi23/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0399-evaluate-division](https://github.com/kashishbishnoi23/Leetcode/tree/master/0399-evaluate-division) |
@@ -994,6 +997,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/kashishbishnoi23/Leetcode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/kashishbishnoi23/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [0212-word-search-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0212-word-search-ii) |
 | [0216-combination-sum-iii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0494-target-sum](https://github.com/kashishbishnoi23/Leetcode/tree/master/0494-target-sum) |
 | [0773-sliding-puzzle](https://github.com/kashishbishnoi23/Leetcode/tree/master/0773-sliding-puzzle) |
@@ -1113,6 +1117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/kashishbishnoi23/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0139-word-break](https://github.com/kashishbishnoi23/Leetcode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/kashishbishnoi23/Leetcode/tree/master/0208-implement-trie-prefix-tree) |
+| [0212-word-search-ii](https://github.com/kashishbishnoi23/Leetcode/tree/master/0212-word-search-ii) |
 | [0692-top-k-frequent-words](https://github.com/kashishbishnoi23/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [1397-search-suggestions-system](https://github.com/kashishbishnoi23/Leetcode/tree/master/1397-search-suggestions-system) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/kashishbishnoi23/Leetcode/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
