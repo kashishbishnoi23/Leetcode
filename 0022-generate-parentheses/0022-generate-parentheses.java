@@ -1,31 +1,39 @@
 class Solution {
 
-    private void recursion(List<String> ans, int open, int close, StringBuilder sb){
 
-        if (open == 0 && close == 0){
+    private void recursion(int open, int close, int n, StringBuilder sb, List<String> ans){
+
+        if (open == n && close == n){
             ans.add(new String(sb));
             return;
         }
 
         // take open:
-        if (open > 0){
+        if (open < n){
             sb.append('(');
-            recursion(ans, open-1, close, sb);
+            recursion(open+1, close, n, sb, ans);
             sb.deleteCharAt(sb.length()-1);
         }
 
-        // I can add close if open > close:
-        if (open < close){
+        // take close:
+        if (open > close){
             sb.append(')');
-            recursion(ans, open, close-1, sb);
+            recursion(open, close+1, n, sb, ans);
             sb.deleteCharAt(sb.length()-1);
         }
 
     }
+
+ 
     public List<String> generateParenthesis(int n) {
+
         List<String> ans = new ArrayList<>();
+
         StringBuilder sb = new StringBuilder();
-        recursion(ans, n, n, sb);
+
+        recursion(0, 0, n, sb, ans);
+
+
 
         return ans;
     }
