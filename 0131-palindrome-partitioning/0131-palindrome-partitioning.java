@@ -1,24 +1,27 @@
 class Solution {
 
-    private void recursive(List<List<String>> ans, List<String> path, int indx, String s){ 
+    // private void recursive(List<List<String>> ans, List<String> path, int indx, String s){ 
           
-        if (indx == s.length()){
-            ans.add(new ArrayList<>(path));
-            return;
-        }
+    //     if (indx == s.length()){
+    //         ans.add(new ArrayList<>(path));
+    //         return;
+    //     }
 
-        for (int i = indx; i < s.length(); i++){
-            // is index pe partition possible hai??
-            String str = s.substring(indx, i+1);
-            if (isPalindrome(str)){
-                // agar palindrome hai ise path me add kro
-                path.add(str);
-                // aage badho
-                recursive(ans, path, i+1, s);
-                path.remove(path.size()-1);
-            }
-        }
-    }
+    //     for (int i = indx; i < s.length(); i++){
+    //         // is index pe partition possible hai??
+    //         String str = s.substring(indx, i+1);
+    //         if (isPalindrome(str)){
+    //             // agar palindrome hai ise path me add kro
+    //             path.add(str);
+    //             // aage badho
+    //             recursive(ans, path, i+1, s);
+    //             path.remove(path.size()-1);
+    //         }
+    //     }
+    // }
+
+
+
 
 
     private boolean isPalindrome(String s){
@@ -34,6 +37,25 @@ class Solution {
         }
         return true;
 
+    }
+
+
+    public void recursive(List<List<String>> ans, List<String> path, int indx, String s){
+
+        if (indx == s.length()){
+            // ans.add(new )
+            List<String> temp = new ArrayList<>(path);
+            ans.add(temp);
+            return;
+        }
+
+        for (int i = indx; i < s.length(); i++){
+            if (isPalindrome(s.substring(indx, i+1))){
+                path.add(s.substring(indx, i+1));
+                recursive(ans, path, i+1, s);
+                path.remove(path.size()-1);
+            }
+        }
     }
 
     public List<List<String>> partition(String s) {
