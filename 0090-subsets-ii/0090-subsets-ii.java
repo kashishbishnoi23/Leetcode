@@ -1,23 +1,31 @@
 class Solution {
 
-    private void recursive(int[] nums, int indx, List<List<Integer>> ans, List<Integer> temp){
+
+    private void recursion(int indx, int[] nums, List<Integer>temp, List<List<Integer>> ans){
+        int n = nums.length;
 
         ans.add(new ArrayList<>(temp));
-        
-        for (int i = indx; i < nums.length; i++){
+        if (indx == n) return;
+
+        for(int i = indx; i < n; i++){
             if (i > indx && nums[i] == nums[i-1]) continue;
             temp.add(nums[i]);
-            recursive(nums, i+1, ans, temp);
-
+            recursion(i+1, nums, temp, ans);
             temp.remove(temp.size()-1);
         }
+
     }
+
+ 
     public List<List<Integer>> subsetsWithDup(int[] nums) {
-        List<List<Integer>> ans = new ArrayList<>();
-        List<Integer> temp = new ArrayList<>();
+        
         Arrays.sort(nums);
 
-        recursive(nums, 0, ans, temp);
+        List<List<Integer>> ans = new ArrayList<>();
+
+        List<Integer> temp = new ArrayList<>();
+
+        recursion(0, nums, temp, ans);
 
         return ans;
     }
